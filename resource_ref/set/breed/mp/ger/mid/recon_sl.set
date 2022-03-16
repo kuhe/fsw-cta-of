@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_nco"}
+	{portrait "ger_scout"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality ger_officer}
+	{armors
+		{head ger_m40_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("recon")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp40_unfolded" filled}
+		{item "mp40 ammo" 192}
+
+		{item "m24 grenade" 1.25 0.5}
+		{item "nbk39 grenade" 2.25 0.5}
+
+		{item "bandage_ger" 3.5 0.5}
+
+		{in_hands 0}
+	}
+}

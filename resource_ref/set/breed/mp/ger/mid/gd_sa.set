@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_gd_gwhr"}
+	{portrait "ger_gd"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m40_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("grossdeutschland")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_6")
+	}
+	{inventory
+		{item "g41" filled}
+		{item "rifle_ger clip ammo" 90 10}
+
+		{item "m24 grenade" 2.25 0.5}
+		{item "nbk39 grenade" 1.25 0.5}
+		{item "m24_geballteladung grenade" 0.75 0.5}
+
+		{item "bandage_ger" 5.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

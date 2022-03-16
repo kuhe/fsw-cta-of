@@ -1,0 +1,17 @@
+{difficulty
+	(include "difficulty_generic.inc")
+	{enemy
+		{health 0.33}
+		{accuracy 0.33}
+		{grenade_timeout 1.5}		; modifier on FiringTimeout
+	}
+	{ally
+		{health 1.50}
+	}
+	{player
+		{health 3.00}
+		{death_delay_min 300}		; min bleeding out time in seconds
+		{death_delay_max 400}		; max bleeding out time in seconds
+	}
+
+}

@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_mg_asst"}
+	{portrait "ger_regular"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m40_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("loader_skill_rank_2")
+		("vet_reg")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "k98" filled}
+		{item "rifle_ger clip ammo" 60 5}
+
+		{item "m24 grenade" 2.25 0.5}
+		{item "nbk39 grenade" 1.25 0.5}
+
+		{item "mgun_ger belt ammo" 500}
+		{item "bandage_ger" 4.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,11 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 8}
+	{entity "p38"}
+	{fireSound	"pistol/p38/"}
+	{fireSoundclose	"pistol/p38/3p/"}
+	{reloadSound "p38"}
+	{calibre 9}
+	{mass 0.98}
+
+	("velocity" mps(365))
+}

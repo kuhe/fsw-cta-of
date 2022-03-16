@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_pio_1"}
+	{portrait "ger_sturmpionier"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m42_helmet_splinter}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp40_folded" filled}
+		{item "mp40 ammo" 224}
+
+		{item "m24 grenade" 4.5 0.5}
+		{item "nbk39 grenade" 1.25 0.5}
+		{item "hafthohlladung grenade" 1.15 0.5}
+
+		{item "bandage_ger" 4.5 0.5}
+		{item "ger_m34_sidecap"}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

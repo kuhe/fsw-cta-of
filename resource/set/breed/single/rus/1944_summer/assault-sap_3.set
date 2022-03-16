@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_assault_sapper"}
+	{portrait "rus_assaut_sapper"}
+	{icon "mg"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_ssh39_brown}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("assault_sapper")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "dp_bipod" filling "mgun_rus dp ammo" 47}
+		{item "mgun_rus dp ammo" 329}
+		{item "sn40_body_armor"}
+
+		{item "rgd33 grenade" 2.25 0.5}
+		{item "rdg1_smoke grenade" 1.25 0.5}
+
+		{item "bandage_rus" 5}
+		;{item "shovel_rus"}
+
+		{in_hands 0}
+	}
+}

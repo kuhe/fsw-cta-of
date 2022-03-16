@@ -1,0 +1,10 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke"}
+	{inventory
+		{size 3 1}
+	}
+	{entity "80mm_ger_mortar_sm"}
+	{mass 3.5}
+
+	("minimum_range_medium")
+}

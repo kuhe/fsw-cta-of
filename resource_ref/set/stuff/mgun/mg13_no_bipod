@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{inventory {size 6 2}}
+	{filling "mgun_ger" 25}
+	{entity "mg13_no_bipod"}
+	{fireSound "mgun/breda_burst"}
+	{fireSoundclose "mgun/breda_burst/3p"}
+	{reloadSound "mg34"}
+	{calibre 7.92}
+	{mass 13.3}
+
+	("fire rate" rpm(600))
+	("velocity" mps(890))
+
+	("burst_short")
+	("spreading_low")
+}

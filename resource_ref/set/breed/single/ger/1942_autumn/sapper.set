@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_coat_rifle"}
+	{portrait "ger_engineer"}
+	{icon "tech"}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{head ger_m40_helmet_mg}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2") 
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp40_folded" filled}
+		{item "mp40 ammo" 192}
+		{item "bandage_ger" 3}
+		{item "mine_detector"}
+		{in_hands 0}
+	}
+}

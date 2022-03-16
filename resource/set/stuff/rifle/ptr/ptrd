@@ -1,0 +1,13 @@
+{from "pattern at_rifle"
+	{tag "bolt_action"}
+	{filling "ammo atrifle_rus" 1}
+	{entity "ptrd"}
+	{fireSound "rifle/ptrd_shot"}
+	{fireSoundclose "rifle/ptrd_shot/3p/"}
+	{reloadSound "ptrd"}
+	{calibre 14.5}
+	{mass 17.3}
+
+	("penetration" args 43 40 35)
+	("velocity" mps(1013))
+}

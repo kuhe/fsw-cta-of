@@ -1,0 +1,9 @@
+{bullet
+	{tag "flame"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+	}
+	{entity "sturmtiger_ammo"}
+	{mass 100}
+}

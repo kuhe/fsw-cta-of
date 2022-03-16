@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{filling "mgun_ger" 150}
+	{entity "mg34_tank"}
+	{fireSound "mgun/mg34_burst"}
+	{fireSoundclose "mgun/mg_interior"}
+	{reloadSound "interior/small/mg34_reload_interior"}
+	{calibre 7.92}
+	{mass 12.1}
+
+	("fire rate" rpm(800))
+	("velocity" mps(765))
+
+	("reload_belt")
+
+	("burst_long")
+	("spreading_mounted")
+}

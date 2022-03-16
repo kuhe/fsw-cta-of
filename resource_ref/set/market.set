@@ -1,0 +1,77 @@
+{market
+	{inventory_filter_list "all box key xp pack squad_logo color emoticon"}
+	{store_filter_list "all items cash boxes keys dlc"}
+	{inventory_rarity_list "all simple common uncommon rare epic"}
+	{store_item_size
+		{small 150 150}
+		{large 200 200}
+	}
+	{library
+		{background_video "/video/library"}
+		{light_color "0xFF8AABD7"}
+		{matrices
+			{"m72_law"
+			 "panzerfaust3"
+			 "rgw90_as"
+			 "rpg_29"
+			 "rpg_7"
+			 "spg-9"
+			 "smoke_66mm"
+			 "barrel"
+			 "can"
+			 "11x23"
+			 "12gauge"
+			 "12x55"
+			 "12x99"
+			 "12x108"
+			 "4x30"
+			 "5x39"
+			 "5x45"
+			 "7x39"
+			 "7x51"
+			 "7x54"
+			 "7x67"
+			 "9x18"
+			 "9x19"
+			 "9x39"
+			 "9x64"
+			 "flare"
+			 "decoy"
+				1 0 0
+				0 0 1
+				0 -1 0 ; 90° by x
+			}
+			{"case"
+			 "repair_kit"
+			 "morphine"
+				0 0 -1
+				1 0 0
+				0 -1 0
+			}
+			{"bullet12"
+			 "bullet15"
+			 "bullet20 ap"
+			 "bullet20 fg"
+			 "bullet23 fg"
+			 "bullet25 ap"
+			 "bullet25 fg"
+			 "bullet30 ap"
+			 "bullet30 fg"
+				0 -1 0
+				0 0 1
+				-1 0 0
+			}
+			{"bullet130c atgm"
+				0 0 -1
+				1 0 0
+				0 -1 0
+			}
+		}
+		{specular
+			{tag "vehicle" 0.10}
+			{tag "vehicle airborne" 0.10}
+			{tag "vehicle helicopter" 0.10}
+			{tag "weapon" 0.5}
+		}
+	}
+}

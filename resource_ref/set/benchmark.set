@@ -1,0 +1,50 @@
+;possible parameters:
+; "fps"					frames per second
+; "qps"					quants per second
+; "render_time"			time it took to render the last frame
+; "video_memory_load"	size of used video memory 
+; "memory_load"			size of used RAM 
+
+;possible config entries:
+;"graph"				prints a graph for every parameter
+;"location_map"			prints a top down map with color coded camera locations
+
+{profiles
+
+	{default
+		{config
+			"graph"
+			"location_map"
+		}
+		{parameters
+			"fps"
+			"qps"
+			"render_time"
+		}
+	}
+
+	{full
+		{config
+			"graph"
+			"location_map"
+		}
+		{parameters
+			"video_memory_load"
+			"memory_load"
+			"fps"
+			"qps"
+			"render_time"
+		}
+	}
+
+	{min
+		{parameters
+			"fps"
+		}
+	}
+
+	{test
+
+	}
+
+}

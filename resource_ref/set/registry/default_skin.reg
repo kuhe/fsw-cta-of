@@ -1,0 +1,154 @@
+;SDL
+{default_skin
+	{dialog
+		{frame_size 1}
+		{face_color  "66 66 66"}
+		{text_style "f(arial_hq)s(8)c(f4f3ee)"}
+		{frame_color "45 45 45"}
+	}	
+	{inputline
+		{selection
+			{face_color "218 178 120"}
+			{text_color	"0 0 0"}
+			{ro_face_color "230 230 230"}
+			{ro_text_color "0 0 0"}
+		}
+		{text_style	"c(218 178 120)f(arial_hq)s(8)"}
+		{ro_text_color "200 200 200"}
+		{disabled_text_color "228 228 228"}
+		{modal_frame_color "200 200 200"}
+		{cursor_char "_"}
+		{blink_period "0.5"}
+	}
+	{scrollbar
+		{folder "/interface/skin/editor/scrollbar/"}
+	}
+	{slider
+		{folder "/interface/skin/editor/slider/"}
+	}
+	{listbox
+		{folder "/interface/skin/editor/listbox/"}
+		{face_color "62 62 62"}
+		{item
+			{text_style
+				{normal		"f(arial_hq)c(200 200 200)"}
+				{selected	"f(arial_hq)c(22 22 22)"}
+				{focused	"f(arial_hq)c(22 22 22)"}
+			}
+			{face_color
+				{normal		"58 58 58"}
+				{selected	"200 200 200"}
+				{focused	"218 178 120"}
+			}
+			{selection_shrink 0}
+			{text_offset 2}
+		}
+	}
+	{treeview
+		{item
+			{text_style
+				{normal		"f(arial_hq)s(9)c(200 200 200)"}
+				{selected	"f(arial_hq)s(9)c(30 30 30)"}
+				{focused	"f(arial_hq)s(9)c(218 178 120)"}
+			}
+			{face_color
+				{normal		"64 64 124"}
+				{selected	"120 120 120"}
+				{focused	"40 40 40"}
+			}
+		}
+		{folder "/interface/skin/editor/treeview/"
+			{text_style
+				{normal		"e(shadow)f(arial_hq)s(9)b+c(245 245 245)"}
+				{selected	"f(arial_hq)s(9)b+c(30 30 30)"}
+				{focused	"f(arial_hq)s(9)b+c(30 30 30)"}
+			}
+			{face_color
+				{normal		"64 64 64"}
+				{selected	"120 120 120"}
+				{focused	"218 178 120"}
+			}
+		}
+	}
+	{splitter
+		{folder "/interface/skin/editor/splitter/"}
+		{color_working "220 220 220 120"}
+	}
+	{button
+		{text_style
+			{normal 			"f(arial_hq)s(8)e(shadow)c(200 200 200)"}
+			{focused_mouse		"f(arial_hq)s(8)e(shadow)c(218 178 120)"}
+			{focused_keyboard	"f(arial_hq)s(8)e(shadow)c(218 178 120)"}
+			{pressed			"f(arial_hq)s(8)e(shadow)c(218 178 120)"}
+			{disabled			"f(arial_hq)s(8)e(disabled)c(55 55 55)"}
+		}
+		{face_color
+			{normal				"66 66 66"}
+			{focused_mouse		"72 72 72"}
+			{focused_keyboard	"69 69 69"}
+			{pressed			"45 45 45"}
+			{disabled			"77 77 77"}
+		}
+	}
+	{checkbox
+		{text_style
+			{normal				"f(arial_hq)s(8)c(220 220 220)"}
+			{focused_mouse		"f(arial_hq)s(8)e(shadow)c(255 255 255)"}
+			{focused_keyboard	"f(arial_hq)s(8)e(shadow)c(255 255 255)"}
+			{pressed			"f(arial_hq)s(8)e(shadow)c(200 200 200)"}
+			{disabled			"f(arial_hq)s(8)c(0 0 0)"}
+		}
+		{face_color
+			{normal				"64 64 64"}
+			{focused_mouse		"84 84 84"}
+			{focused_keyboard	"84 84 84"}
+			{pressed			"50 50 50"}
+			{disabled			"40 40 40"}
+		}
+		{check "/interface/skin/editor/checkbox"}
+	}
+	{combobox
+		{button "/interface/skin/editor/down"}
+		{drop_offset "2"}
+	}
+	{dialogbox
+		{title
+			{offset 6}
+			{close_button "/interface/skin/editor/close"}
+			{face_color "45 44 43"} ;178 55 55 55
+			{text_style "e(none)s(10)b+c(150 150 150)"}
+			{active
+				{face_color "42 42 42"} ;50 50 50
+				{text_style "s(10)e(none)b+c(220 220 220)"}
+			}
+		}
+	}
+	{console
+		{face_color "22 22 22 220"}
+		{sel_text_color	"220 220 220"}
+		{text_style "e(shadow)c(255 255 75)s(10)"} ;210 54 99
+	}
+	{debug_console
+		{text_style "e(shadow)f(arial_hq)s(10)"}
+	}
+	{group
+		{text_style "e(shadow)b+c(224 224 224)"}
+	}
+	{splitter
+		{color "77 77 77"}
+		{color_working "255 255 255 140"}
+	}
+	{resizer
+		{color_working "255 255 255 140"}
+	}
+	{hint
+		{offset 12}
+		{face_color "42 42 42 120"}
+		{frame_color "40 40 40 100"}
+		{text_style "f(anka)s(15)c(250 250 250)"}
+	}
+	{statusbar
+		{height 20}
+		{text_style "f(roboto_mono)s(8)c(200 200 200)"}
+	}
+}

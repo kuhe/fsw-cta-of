@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_paratrooper"}
+	{portrait "rus_paratrooper"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_budinovka}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("paratrooper")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mosin" filled}
+		{item "rifle_rus clip ammo" 60 5}
+
+		{item "rgd33 grenade" 2.25 0.5}
+		{item "rdg1_smoke grenade" 1.25 0.5}
+		{item "rpg40 grenade" 0.75 0.5}
+
+		{item "bandage_rus" 4.5 0.5}
+		{item "knife_rus"}
+
+		{in_hands 0}
+	}
+}

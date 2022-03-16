@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_marine_rifle"}
+	{portrait "rus_marine"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_ushanka_naval}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4") 
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "avt40" filled}
+		{item "bandage_rus"}
+		{item "molotov_cocktail grenade" 1}
+		{item "rpg40 grenade" 1}
+		{item "rgd33 grenade" 2}
+		{item "svt ammo" 300}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{tag "rifle_stab_melee -rifle_slap_melee"}
+	{filling "ammo rifle_ger clip" 5}
+	{entity "k98_bayonet"}
+	{fireSound "rifle/kar98_shot"}
+	{fireSoundclose "rifle/kar98_shot/3p/"}
+	{reloadSound "kar98"}
+	{calibre 7.92}
+	{mass 4}
+
+	("velocity" mps(760))
+	("bolt_action")
+	("k98_rate")
+}

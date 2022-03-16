@@ -1,0 +1,14 @@
+{from "pattern smg"
+	{filling "ammo ppsh_drum" 71}
+	{entity "ppsh41_drum"}
+	{fireSound "smg/ppsh_burst/"}
+	{fireSoundclose "smg/ppsh_burst/3p/"}
+	{reloadSound "ppsh41"}
+	{calibre 7.62}
+	{mass 3.63}
+
+	("fire rate" rpm(900))
+	("velocity" mps(488))
+	("spreading_high")
+	("burst_long")
+}

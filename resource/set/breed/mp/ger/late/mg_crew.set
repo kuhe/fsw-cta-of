@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_mg"}
+	{portrait "ger_regular"}
+	{icon "mg"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m40_helmet_green_mg}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "p38" filled}
+		{item "pistol ammo" 16}
+
+		{item "m24 grenade" 1}
+		{item "nbk39 grenade" 1}
+
+		{item "bandage_ger" 3.5 0.5}
+
+		{in_hands 0}
+	}
+}

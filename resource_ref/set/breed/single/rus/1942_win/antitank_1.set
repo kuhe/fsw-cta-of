@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_win_telogreika_rifle"}
+	{portrait "rus_regular"}
+	{icon "at"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head soviet_ssh39_winter}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2") 
+		("at_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ptrd" filled}
+		{item "bandage_rus" 2}
+		{item "tt33" filled}
+		{item "tt33 ammo" 48}
+		{item "atrifle_rus ammo" 33}
+		{in_hands 0}
+	}
+}

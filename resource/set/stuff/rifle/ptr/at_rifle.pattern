@@ -1,0 +1,39 @@
+{from "pattern rifle"
+	{tag "weapon at_rifle -bullet to_hand mountable ap -shoot_walking -shoot_walking_ai shoot_walking_manual rifle_shell"}
+	{inventory {size 8 2}}
+
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim-bolt"}
+	}
+
+	{cursorReloading "gun_ap"}
+
+	{special
+		{throw_off}
+	}
+
+	{foresight "foresight18"}
+	{RelaxationTime 1}
+	{SpreadTolerance 0.6}			;// AI needs to aim 70%
+	{aimingTolerance 0.1}
+
+	("reload time" seconds(4))
+
+	{range 120 120}
+
+	{ZeroingAccuracy 0.85 0.75 0.7 0.65}
+
+	("human health" damage(325))
+	("armor health" damage(50))
+
+	("accuracy_rifle_at")
+	("ap_slope_multiplier")
+
+	{AccuracyByMotionK 0.75}
+
+	{thirdpersonparams inherit "human default"}
+}

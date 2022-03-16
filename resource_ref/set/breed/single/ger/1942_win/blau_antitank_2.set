@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_win_coat_blau_rifle"}
+	{portrait "ger_blau"}
+	{icon "rifle"}
+	{icon_priority 1}
+	{nationality spa}
+	{armors
+		{head ger_m42_helmet_winter_cover}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("at_rank_3")
+		("blau")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "k98" filled}
+		{item "m24 grenade" 1}
+		{item "rifle_ger clip ammo" 60}
+		{item "shovel_ger"}
+		{item "bandage_ger" 3}
+		{item "ger_m40_helmet"}
+		{item "m24_geballteladung grenade" 1}
+		{item "atrifle_ger ammo" 10}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,9 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "rus_partisan_01"}
+	{portrait "battle_assistant"}
+	{icon "officer"}
+	{icon_priority 4}
+	{nationality ger}
+}

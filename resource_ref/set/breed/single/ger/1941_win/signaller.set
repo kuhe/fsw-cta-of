@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_win_parka_nco"}
+	{portrait "ger_signal"}
+	{icon "signaller"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m34_sidecap_radio}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp38_folded" filled}
+		{item "mp40 ammo" 384}
+		{item "bandage_ger" 3}
+		{item "german_radio" 1}
+		{item "leuchtpistole34" filled}
+		{item "flare ammo" 5}
+		{in_hands 0}
+	}
+}

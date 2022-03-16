@@ -1,0 +1,17 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke wp_medium"}
+	{inventory
+		{size 3 1}
+	}
+	{entity "82mm_rus_mortar_sm"}
+	{mass 3.05}
+
+	("minimum_range_medium")
+
+	{damage fire
+		{radius 1}
+		{heating 3}
+		{time 1}
+		;{ground_interaction_radius 0.3} ;// crashes game if used with fire damage
+	}
+}

@@ -1,0 +1,51 @@
+{levelofdetail
+	;// level of detail in 3rd person mode zoom > x1
+
+	(define "off"
+		{off}
+	)
+	(define "off_small"
+		{off}
+	)
+	(define "off_tiny"
+		{off}
+	)
+
+	(define "scale"
+		(* 1.2 %d)
+	)
+	(define "scale2"
+		(* 1.5 %d2)
+	)
+
+	(mod "mp"
+		(define "scale"
+			(* 0.85 %d)
+		)
+		(define "scale2"
+			(* 1.1 %d2)
+		)
+	)
+	(mod "coop"
+		(define "scale"
+			(* 0.8 %d)
+		)
+		(define "scale2"
+			(* 1.1 %d2)
+		)
+	)
+	{shadowFallOffFactor 1.5}
+	(include "level_of_detail.inc")
+
+	{GrassDistance 3000}
+	{GrassThinnerDepth 3000}
+	{GrassFadeDepth 800}
+	{GrassThinnerPower 0.4}
+	
+	(mod "mp"
+		{GrassThinnerPower 0.2}
+	)
+	(mod "coop"
+		{GrassThinnerPower 0.2}
+	)
+}

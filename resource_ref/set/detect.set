@@ -1,0 +1,191 @@
+; Rules for when enemy units are revealed in fog of war to the user/player
+; after they generate a sound signal and are detected by friendly units
+; {meters - seconds staying visible}
+; Specific classes need to be at the top, generic ones later
+
+{detect
+
+; // heavy artillery, seen up to 600m, leave a very thick mark 
+
+	{"detect_artillery" "attack"
+		{0		6}
+		{200	6}
+		{300	6}
+		{500	6}
+	}
+	{"detect_artillery" "visible"
+		{0		5.0}
+		{130	5.0}
+	}
+
+; // small caliber artillery, mortars and support guns
+
+	{"detect_artillery_small" "attack"
+		{0		5}
+		{200	5}
+		{250	5}
+		{251	5}
+	}
+	{"detect_artillery_small" "visible"
+		{0		5.0}
+		{130	5.0}
+	}
+
+; // AT guns, low detectability, class advantage
+
+	{"detect_atgun" "attack"
+		{0		2}
+		{150	2}
+		{180	2}
+		{250	2}
+	}
+	{"detect_atgun" "visible"
+		{0		0.5}
+		{250	0.5}
+	}
+
+; // Small AT guns, very low detectability, class advantage
+
+	{"detect_atgun_small" "attack"
+		{0		1}
+		{150	1}
+		{150	1}
+	}
+	{"detect_atgun_small" "visible"
+		{0		0.5}
+		{250	0.5}
+	}
+
+; // AA guns and MGs, very hard to detect, linked to max autocannon range of 170m
+
+	{"detect_cannon_aa" "attack"
+		{0		3}
+		{120	3}
+		{180	3}
+	}
+	{"detect_cannon_aa" "visible"
+		{0		5.0}
+		{130	5.0}
+	}
+
+; // Tanks of various shapes and forms
+
+	{"detect_spg" "attack"
+		{0		6}
+		{180	6}
+		{200	6}
+		{500	6}
+	}
+	{"detect_spg" "visible"
+		{0		5.0}
+		{200	5.0}
+	}
+
+	;//----------
+	
+	{"detect_tank_mg" "attack"  
+		{0		6}
+		{180    6}
+	}
+	{"detect_tank_mg" "visible"
+		{0		5}
+		{200	5}
+	}
+
+	;//----------	
+
+	{"detect_td_heavy" "attack"
+		{0		6}
+		{200	6}
+		{500	6}
+	}
+	{"detect_td_heavy" "visible"
+		{0		5}
+		{200	5}
+	}	
+	
+	{"detect_td_light" "attack"
+		{0		4}
+		{150	4}
+		{200	4}
+		{210	4}
+	}
+	{"detect_td_light" "visible"
+		{0		5}
+		{200	5}
+	}	
+	
+	{"detect_td_medium" "attack"
+		{0		5}
+		{150	5}
+		{250	5}
+		{251	5}
+	}
+	{"detect_td_medium" "visible"
+		{0		5}
+		{200	5}
+	}
+
+	;//----------
+	
+	{"detect_tank_heavy" "attack"
+		{0		7}
+		{200	7}
+		{300	7}
+		{301	7}
+	}
+	{"detect_tank_heavy" "visible"
+		{0		5.0}
+		{200	5.0}
+	}
+
+	{"detect_tank_light" "attack"
+		{0		5}
+		{200	5}
+		{200	5}
+		{201	5}
+	}
+	{"detect_tank_light" "visible"
+		{0		5}
+		{200	5}
+	}
+
+	{"detect_tank_medium" "attack"
+		{0		6}
+		{200	6}
+		{250	6}
+	}
+	{"detect_tank_medium" "visible"
+		{0		5}
+		{150	5}
+	}
+
+	;//----------
+
+
+; // Generic vehicles, will use this rule if not propped
+
+	{"vehicle" "attack"
+		{0		5}
+		{180	5}
+		{200	5}
+		{300	5}
+	}
+	{"vehicle" "visible"
+		{0		5}
+		{200	5}
+	}
+
+; // Human detection range
+
+	{"human" "attack"
+		{0		5.0}
+		{80		5.0}
+		{130	5.0}
+		{200	5.0}
+	}
+	{"human" "visible"
+		{0		5.0}
+		{200	5.0}
+	}
+}

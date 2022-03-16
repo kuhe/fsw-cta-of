@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{inventory {size 5 2}}
+	{filling "ammo rifle_rus clip" 5}
+	{entity "mosin_carbine"}
+	{fireSound "rifle/mosin_shot"}
+	{fireSoundclose "rifle/mosin_shot/3p/"}
+	{reloadSound "mosin"}
+	{calibre 7.62}
+	{mass 3}
+
+	("velocity" mps(765))
+	("bolt_action")
+	("accuracy_rifle_auto")
+	("mosin_rate")
+}

@@ -1,0 +1,15 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_partisan_02"}
+	{portrait "narrator_rus_partisan"}
+	{icon "officer"}
+	{icon_priority 4}
+	{nationality rus}
+	{armors
+		{head soviet_commisar_cap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2") 
+	}
+}

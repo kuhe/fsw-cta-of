@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{tag "silenced"}
+	{filling "ammo rifle_rus clip" 5}
+	{entity "mosin_silencer"}
+	{fireSound	"pistol/welrod/"}
+	{fireSoundclose	"pistol/welrod/3p/"}
+	{reloadSound "mosin"}
+	{calibre 7.62}
+	{mass 4}
+
+	("velocity" mps(565))
+	("bolt_action")
+	("mosin_rate")
+}

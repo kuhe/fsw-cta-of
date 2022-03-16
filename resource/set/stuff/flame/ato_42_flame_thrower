@@ -1,0 +1,16 @@
+;_________________________________________
+; Soviet Tank Flamethrower
+;=========================================
+
+{from "pattern flame_thrower"
+	{entity "ato_41_flame_thrower"}
+	("filling" fuel(10))	;// Fuel tank 200 Liters
+	{mass 150}
+
+	{foresight "foresight4"}
+
+	{range 80 80}
+	{speed 43}
+
+	{rechargeTime 2}
+}

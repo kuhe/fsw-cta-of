@@ -1,0 +1,18 @@
+{grass
+
+	(include "grass/ostfront.inc")
+
+;	{"grass_1"					; pattern name
+;		{models					; model list (equal selection chance)
+;			{"new_grass01" }	; <model name> [<texmod>]
+;			{"new_grass0a" }
+;			{"new_grass0c2" "aut"}
+;			{"new_grass02" "2"}
+;		}
+;		{density 1}				; density: pcs per quare meter
+;		{strictAngle}			; no random orientation
+;		{strictPosition}		; no grass random position offset
+;		{positionOffset 0.8}	; random offset coefficient. 1.0 is whole cell (default)
+;	}
+
+}

@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_win_parka_pio1"}
+	{portrait "ger_pionier"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m34_sidecap}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp40_unfolded" filled}
+		{item "m24 grenade" 1}
+		{item "bandage_ger" 3}
+		{item "hafthohlladung grenade" 2}
+		{item "mine_detector"}
+		{item "mp40 ammo" 192}
+		{in_hands 0}
+	}
+}

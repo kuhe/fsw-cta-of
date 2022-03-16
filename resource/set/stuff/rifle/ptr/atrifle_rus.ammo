@@ -1,0 +1,20 @@
+{bullet
+	{tag "ptr pierce"}
+	{tag "bullet_fx size3"}
+	{inventory
+		{size 2 1}
+		{weight 20}
+		{block 5}
+	}
+	{entity "atrifle_rus"}
+	{mass 0.2}
+
+	{trace
+		{view "/texture/fx/tracer_new/trace_solid_red.mtl"
+			{ScaleY 0.25}
+			{ScaleX 1.75}
+			{Light 1}
+		}
+		{length 3.1}
+	}
+}

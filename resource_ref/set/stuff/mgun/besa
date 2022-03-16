@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{filling "mgun_ger belt" 225}
+	{entity "besa"}
+	{fireSound "mgun/breda_burst"}
+	{fireSoundclose "mgun/breda_burst/3p"}
+	{reloadSound "interior/small/mg34_reload_interior"}
+	{calibre 7.92}
+	{mass 12.1}
+
+	("fire rate" rpm(750))
+	("velocity" mps(823))
+
+	("reload_belt")
+
+	("burst_long")
+	("spreading_mounted")
+}

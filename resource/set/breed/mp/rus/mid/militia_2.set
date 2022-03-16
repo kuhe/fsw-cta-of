@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_border_rifle"}
+	{portrait "rus_basic"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_adrian}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_1")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mosin_carbine" filled}
+		{item "rifle_rus clip ammo" 35 5}
+
+		{item "bandage_rus" 1.25 0.5}
+
+		{in_hands 0}
+	}
+}

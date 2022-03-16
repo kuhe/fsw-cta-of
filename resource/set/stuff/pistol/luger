@@ -1,0 +1,12 @@
+{from "pattern pistol"
+	{inventory {size 3 1}}
+	{filling "ammo pistol" 8}
+	{entity "luger"}
+	{fireSound	"pistol/p08"}
+	{fireSoundclose	"pistol/p08/3p/"}
+	{reloadSound "luger"}
+	{calibre 9}
+	{mass 0.87}
+
+	("velocity" mps(375))
+}

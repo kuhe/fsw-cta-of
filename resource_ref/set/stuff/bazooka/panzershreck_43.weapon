@@ -1,0 +1,15 @@
+{from "pattern rpg_weapon"
+	{filling "ammo panzershreck" 1}
+	{entity "panzershreck_43"}
+	{fireSound "reactive/bazooka_fire/"}
+	{reloadsound "panzershreck"}
+	{calibre 88}
+	{mass 9.5}
+
+	("velocity" mps(110))
+
+	("penetration" args 185)
+	("armor health" damage(210))
+	("human health" damage(210))
+}
+

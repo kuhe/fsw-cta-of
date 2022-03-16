@@ -1,0 +1,13 @@
+{from "pattern rifle"
+	{filling "ammo rifle_ger clip" 10}
+	{entity "g41"}
+	{fireSound "rifle/g41_shot"}
+	{fireSoundclose "rifle/g41_shot/3p"}
+	{reloadSound "g43"}
+	{calibre 7.92}
+	{mass 4.9}
+
+	("reload time" seconds(10))
+	("velocity" mps(776))
+	("semi_rifle")
+}

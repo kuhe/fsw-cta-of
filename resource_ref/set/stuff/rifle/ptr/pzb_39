@@ -1,0 +1,16 @@
+{from "pattern at_rifle"
+	{tag "bolt_action"}
+	{filling "ammo atrifle_ger" 10}
+	{entity "pzb_39"}
+	{fireSound "rifle/ptrd_shot"}
+	{fireSoundclose "rifle/ptrd_shot/3p/"}
+	{reloadSound "ptrd"}
+	{calibre 7.92}
+	{mass 11.6}
+
+	("penetration" args 33 30 25)
+	("fire rate" rpm(18))
+	("velocity" mps(1210))
+
+	{cursorReloading "gun_apcr"}
+}

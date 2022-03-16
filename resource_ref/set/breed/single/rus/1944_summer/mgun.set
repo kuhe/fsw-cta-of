@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_m43_mg"}
+	{portrait "rus_regular"}
+	{icon "mg"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_ssh35_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2") 
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "dp_bipod" filling "mgun_rus dp ammo" 47}
+		{item "bandage_rus" 2.5 1}
+		
+		{item "mgun_rus dp ammo" 470}
+		{in_hands 0}
+	}
+}

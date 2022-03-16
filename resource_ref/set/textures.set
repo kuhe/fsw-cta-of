@@ -1,0 +1,56 @@
+
+;Environment Presets Texture file
+
+{presets_texture
+
+	{"textures"
+		{"spring_set"
+			{add "/texture/land/testing/grass_t4" "sas2_grass_a2"}
+			{add "/texture/land/0a_grass_textures/grass_a2_aut" "sas1_grass_a2"}
+ 		        {add "/texture/land/0a_grass_textures/grass_dry_a1" "sas1_grass_a1"}
+                        {add "/texture/land/dirt/clay_02_light" "c_clay_light"} 
+                        {add "/texture/land/dirt/clay_15" "c_clay_15"}
+                        {add "/texture/land/dirt/clay_21" "c_clay_dry"}
+                        {add "/texture/land/dirt/clay_basic" "c_clay_wet"}
+                        {add "/texture/land/dirt/clay_04" "c_clay_pabble"}
+                        {add "/texture/land/t_grass" "grass_b1"}
+		}
+		{"autumn"
+			{add "/texture/land/testing/grass_t4" "sas2_grass_a2"}
+			{add "/texture/land/0a_grass_textures/grass_a2_aut" "sas1_grass_a2"}
+ 		        {add "/texture/land/0a_grass_textures/grass_dry_a1" "sas1_grass_a1"}
+                        {add "/texture/land/dirt/clay_02_light" "c_clay_light"} 
+                        {add "/texture/land/dirt/clay_15" "c_clay_15"}
+                        {add "/texture/land/dirt/clay_21" "c_clay_dry"}
+                        {add "/texture/land/dirt/clay_basic" "c_clay_wet"}
+                        {add "/texture/land/dirt/clay_04" "c_clay_pabble"}
+                        {add "/texture/land/t_grass" "grass_b1"}
+		}
+		{"summer"
+
+		}
+		{"winter"
+                       {add "/texture/land/nwinter/snow_6a" "sas2_grass_a2"}
+                    ;   {add "/texture/land/nwinter/snow_6a" "sas2_grass_a2"}
+		}
+	}
+        {"environment"
+		{"sky"
+			{add "/texture/common/environment/new_sky1" "1"} 
+                        {add "/texture/common/environment/new_sky2" "2"} 
+                        {add "/texture/common/environment/new_sky3" "3"} 
+                        {add "/texture/common/environment/new_sky4" "4"} 
+                        {add "/texture/common/environment/new_sky5" "5"} 
+                        {add "/texture/common/environment/new_sky6" "6"} 
+                } 
+
+	}
+	{"hightmaps"
+		{"generic"
+			{add "/texture/land/hightmaps/generic_river_500x500_hm" "river_500x500_hm"} 
+      {add "/texture/land/hightmaps/generic_steppe_500x500_hm" "steppe_500x500_hm"} 
+        
+
+                }
+	}
+}

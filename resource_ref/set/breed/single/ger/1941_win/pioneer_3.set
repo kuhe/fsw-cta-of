@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_win_parka_pio_gren_rifle"}
+	{portrait "ger_pionier"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m34_sidecap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "k98" filled}
+		{item "rifle_ger clip ammo" 80}
+		{item "m24 grenade" 2}
+		{item "bandage_ger" 3}
+		{item "m24_geballteladung grenade" 1}
+		{item "luger" filled}
+		{item "pistol ammo" 56}
+		{item "shovel_ger"}
+		{in_hands 0}
+	}
+}

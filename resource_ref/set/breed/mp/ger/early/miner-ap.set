@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_engi_smg"}
+	{portrait "ger_engineer"}
+	{icon "tech"}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{head ger_m40_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "k98" filled}
+		{item "rifle_ger clip ammo" 60 5}
+
+		{item "m24 grenade" 2.25 0.5}
+		{item "m24_smoke grenade" 0.5 0.5}
+		{item "s mine" 16 0.5}
+
+		{item "bandage_ger" 3.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,9 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "ger_gj_summer"}
+	{portrait "ger_gebirgsjaeger"}
+	{icon "officer"}
+	{icon_priority 4}
+	{nationality ger}
+}

@@ -1,0 +1,14 @@
+{from "mg13_no_bipod"		; "panzer1b"
+	{tag "-mgun_light"}
+	{filling "mgun_ger" 50}
+	{reloadSound "interior/small/mg34_reload_interior"}
+	{mass 26.6}
+	("fire rate" rpm(1100))
+	("reload time" seconds(10))
+
+	("burst_medium")
+	("spreading_mounted")
+
+	("penetration" args 19 8 0)
+	("armor health" damage(5))
+}

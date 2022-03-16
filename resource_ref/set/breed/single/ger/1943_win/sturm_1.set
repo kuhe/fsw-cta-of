@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_win_parka_stg"}
+	{portrait "ger_elite"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_crusher_cap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mkb42h" filled}
+		{item "m24 grenade" 2}
+		{item "geballteladung_3kg"}
+		{item "stg44 ammo" 300}
+		{item "bandage_ger" 3}
+		{in_hands 0}
+	}
+}

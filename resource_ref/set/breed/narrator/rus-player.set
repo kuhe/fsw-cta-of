@@ -1,0 +1,16 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "rus_inf_rifle"}
+	{portrait "narrator_rus_player"}
+	{icon "officer"}
+	{icon_priority 4}
+	{nationality rus}
+	{armors
+		{head soviet_commisar_cap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2") 
+	}
+}

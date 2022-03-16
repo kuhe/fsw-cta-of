@@ -1,0 +1,8 @@
+{from "pattern he"
+	{tag "size5 150to152 arty"}
+	{inventory {size 9 3}{weight 150}}
+	{entity "600mm_ger_he"}
+	{mass 650}
+
+	("he_mega_blast" weight(2170) filler(289))
+}

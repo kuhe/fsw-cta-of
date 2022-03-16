@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "-rifle smg"}
+	{filling "ammo rifle_rus" 10}
+	{entity "avt40"}
+	{fireSound "rifle/svt_shot"}
+	{fireSoundclose "rifle/svt_shot/3p/"}
+	{reloadSound "svt"}
+	{calibre 7.62}
+	{mass 3.85}
+
+	("fire rate" rpm(460))
+	("velocity" mps(830))
+	("battle_rifle")
+	{parameters "clip"
+		("reload time" seconds(10))
+	}
+}

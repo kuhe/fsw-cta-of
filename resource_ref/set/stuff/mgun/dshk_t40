@@ -1,0 +1,6 @@
+{from "dshk"
+	{tag "gun"}
+	{foresight "foresight1"}
+	{fireSoundclose "mgun/mg_interior"}
+	{reloadSound "interior/small/dt_reload_interior"}
+}

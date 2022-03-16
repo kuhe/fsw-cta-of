@@ -1,0 +1,13 @@
+;_________________________________________
+; German Heavy AA/AT gun
+;=========================================
+
+
+{from "88mm_flak36"			; L/56 "88mm_flak18", "sdkfz8_flak18"
+
+	("reload time" seconds(6))
+
+	; Pzgr. ;early war Flak ammo through mid 1942
+	("armor health custom" shell(apcbche) damage(240) filler(160))
+	("penetration_long" shell(apcbche) range(210) a(123) b(116) c(108) d(100) e(93))
+}

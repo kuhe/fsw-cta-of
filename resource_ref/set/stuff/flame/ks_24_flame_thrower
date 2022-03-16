@@ -1,0 +1,16 @@
+;_________________________________________
+; Soviet Tank Flamethrower
+;=========================================
+
+{from "pattern flame_thrower"		; kht26
+	{entity "flame_thrower"}
+	("filling" fuel(200))	;// Tank could hold 400 Liters. Other 200 liters is in vehicle inventory.
+	{mass 150}
+
+	{foresight "foresight1"}
+
+	{range 35 40}
+	{speed 40}
+
+	{rechargeTime 2}
+}

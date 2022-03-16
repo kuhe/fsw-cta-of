@@ -1,0 +1,14 @@
+{from "pattern smg"
+	{filling "ammo pps_stick" 35}
+	{entity "pps43"}
+	{fireSound "smg/pps_burst/"}
+	{fireSoundclose "smg/pps_burst/3p/"}
+	{reloadSound "pps43"}
+	{calibre 7.62}
+	{mass 3.04}
+
+	("fire rate" rpm(550))
+	("velocity" mps(500))
+	("spreading_medium")
+	("burst_long")
+}

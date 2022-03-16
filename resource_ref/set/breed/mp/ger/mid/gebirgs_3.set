@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_gj_summer"}
+	{portrait "ger_gebirgsjaeger"}
+	{icon "mg"}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{head ger_m43_cap_gebirgs}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("gebirgsjager")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mg34_doubledrum" filling "mgun_ger doubledrum ammo" 75}
+		{item "mgun_ger doubledrum ammo" 500}
+
+		{item "m24 grenade" 1.25 0.5}
+		{item "nbk39 grenade" 1.25 0.5}
+		{item "m24_geballteladung grenade" 0.15 0.5}
+
+		{item "bandage_ger" 5.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

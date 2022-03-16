@@ -1,0 +1,14 @@
+{from "pattern smg"
+	{filling "ammo mp40" 32}
+	{entity "mp40_unfolded"}
+	{fireSound "smg/mp40_burst"}
+	{fireSoundclose "smg/mp40_burst/3p/"}
+	{reloadSound "mp40"}
+	{calibre 9}
+	{mass 3.97}
+
+	("fire rate" rpm(500))
+	("velocity" mps(400))
+	("spreading_low")
+	("burst_short")
+}

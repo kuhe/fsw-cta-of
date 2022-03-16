@@ -1,0 +1,18 @@
+{from "pattern rifle_grenade"
+	{tag ""}
+	{entity "mosin_grenade_launcher"}
+	{filling "ammo dyakonov" 1}
+	;{fillingVisible ""}
+	{fireSound "rifle/mosin_shot"}
+	{fireSoundclose "rifle/mosin_shot/3p/"}
+	{reloadSound "mosin"}
+	{calibre 40}
+	{mass 8.2}
+
+	{cursorReloading "gun_he"}
+	{spreading 6
+		{SpreadXYRatio 0.75}
+	}
+
+	{range 80 80}
+}

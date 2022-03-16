@@ -1,0 +1,9 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "ger_pw_hauptmann"}
+	{portrait "narrator_ger_tankcommander"}
+	{icon "officer"}
+	{icon_priority 4}
+	{nationality ger}
+}

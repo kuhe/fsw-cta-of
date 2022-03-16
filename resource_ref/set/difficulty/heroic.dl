@@ -1,0 +1,15 @@
+{difficulty
+	(include "difficulty_generic.inc")
+	{enemy
+		{health 0.55}
+		{accuracy 1.0}
+	}
+	{ally
+		{health 1.00}
+	}
+	{player
+		{health 1.00}
+		{death_delay_min 60}		; min bleeding out time in seconds
+		{death_delay_max 90}		; max bleeding out time in seconds
+	}
+}

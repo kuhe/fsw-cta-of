@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_amoeba"}
+	{portrait "rus_sniper"}
+	{icon "smg"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head soviet_ssh39_brown}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("spetsnaz")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "dp_bipod" filling "mgun_rus dp ammo" 47}
+		{item "mgun_rus dp ammo" 470}
+
+		{item "rgd33 grenade" 1.25 0.5}
+		{item "molotov_cocktail grenade" 1.25 0.5}
+		{item "satchel_charge_rus" 0.25 0.5}
+
+		{item "bandage_rus" 5.5 0.5}
+
+		{in_hands 0}
+	}
+}

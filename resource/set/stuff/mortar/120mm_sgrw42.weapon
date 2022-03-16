@@ -1,0 +1,10 @@
+;_________________________________________
+; German Heavy Mortar - 12cm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarger_120"}
+	{calibre 120}
+	("heavy_mortar_range")
+}

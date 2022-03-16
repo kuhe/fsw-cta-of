@@ -1,0 +1,10 @@
+;_________________________________________
+; Soviet Medium Mortar - 82mm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarrus_82"}
+	{calibre 82}
+	("medium_mortar_range")
+}

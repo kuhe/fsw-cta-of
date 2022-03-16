@@ -1,0 +1,32 @@
+{weapon_bullet
+	{tag "mrl gun prepare"}
+	{foresight "foresight"}
+	{AimingTolerance 0.5}
+	{curve "gun_std"}
+
+	{special
+		{mode aim}
+		{PrepareTime 3}
+		{PrepareCursor "aimed_shot"}
+		{PrepareCursorScene "aimed_shot_scene"}
+	}
+	
+	{cursor "ironsights/tank"}
+	{cursorReloading "gun_he"}
+
+	{spreading
+		{SpreadPower 1}
+		{SpreadXYRatio 3}
+	}
+	("default gravity")
+
+	{overmatchSlope
+		{0 1}
+		{90 1}
+	}
+
+	{unlimitedRangeTPC 0}
+	{preloaded}
+
+	{SyncedProjectiles 1} 	;// visually syncs decal/crater spawn in multiplayer
+}

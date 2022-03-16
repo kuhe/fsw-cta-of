@@ -1,0 +1,11 @@
+;_________________________________________
+; German Medium Mortar - 8cm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarger_80"}
+	{calibre 80}
+	("medium_mortar_range")
+	("reload time" seconds(3.5))
+}

@@ -1,0 +1,21 @@
+{from "pattern mgun"
+	{tag "aa"}
+	{filling "mgun_rus belt" 1500}
+	{entity "dt"}
+	{fireSound "mgun/dt_burst/"}
+	{fireSoundclose "mgun/dt_burst/3p"}
+	{reloadSound "dt"}
+	{calibre 7.62}
+	{mass 21}
+
+	{range 160 300}
+
+	("fire rate" rpm(3600))
+	("velocity" mps(800))
+	("reload time" seconds(30))
+
+	{Spreading {BurstAccuracy 100}}
+
+	("burst_aa")
+	("airborne_mg")
+}

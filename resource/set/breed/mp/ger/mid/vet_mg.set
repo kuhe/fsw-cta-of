@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_mg"}
+	{portrait "ger_regular"}
+	{icon "mg"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m40_helmet_green_mg}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+		("vet_reg")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "mg34_drum" filling "mgun_ger drum ammo" 50}
+		{item "mgun_ger drum ammo" 300}
+
+		{item "p38" filled}
+		{item "pistol ammo" 16 8}
+
+		{item "m24 grenade" 0.25 0.5}
+		{item "nbk39 grenade" 0.25 0.5}
+
+		{item "bandage_ger" 4.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

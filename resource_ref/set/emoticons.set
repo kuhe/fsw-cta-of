@@ -1,0 +1,29 @@
+{emoticons
+	; common
+	{":)" "emoticon_01"} ;/interface/pages/multi/chat/emoticon_01
+	{"=)" "emoticon_01"}
+	{":(" "emoticon_03"}
+	{";)" "emoticon_10"}
+	{":P" "emoticon_05"}
+	{":D" "emoticon_02"}
+	{"=D" "emoticon_02"}
+	{":I" "emoticon_04"}
+	{":|" "emoticon_04"}
+	{":/" "emoticon_04"}
+	
+	; uncommon
+	{"._." "emoticon_08"}
+	{"-_-" "emoticon_09"}
+	{";P" "emoticon_14"}
+	{"B)" "emoticon_15"}
+	
+	;rare
+	{":O" "emoticon_07"}
+	{":o" "emoticon_07"}
+	{";D" "emoticon_11"}
+	{"D:" "emoticon_12"}
+	{":B" "emoticon_13"}
+	{":3" "emoticon_06"}
+	{":X" "emoticon_16"}
+	{":x" "emoticon_16"}
+}

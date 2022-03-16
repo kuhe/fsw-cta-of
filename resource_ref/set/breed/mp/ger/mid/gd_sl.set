@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_gd_nco"}
+	{portrait "ger_gd"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality ger_officer}
+	{armors
+		{head ger_m40_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("grossdeutschland")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_6")
+	}
+	{inventory
+		{item "mp40_unfolded" filled}
+		{item "mp40 ammo" 224}
+
+		{item "m24 grenade" 2.25 0.5}
+		{item "nbk39 grenade" 2.25 0.5}
+		{item "m24_geballteladung grenade" 0.5 0.5}
+
+		{item "bandage_ger" 5.5 0.5}
+
+		{in_hands 0}
+	}
+}

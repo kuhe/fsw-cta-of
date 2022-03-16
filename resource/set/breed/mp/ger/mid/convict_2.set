@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "ger_wh_straf_smg"}
+	{portrait "ger_basic"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head ger_m43_cap}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_1")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mp40_unfolded" filled}
+		{item "mp40 ammo" 192}
+
+		{item "m24 grenade" 0.50 0.5}
+
+		{item "bandage_ger" 2.5 0.5}
+
+		{in_hands 0}
+	}
+}

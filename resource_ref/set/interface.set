@@ -1,0 +1,146 @@
+{interface
+	{selection
+		{scale
+			{normal 0.9}
+			{squad_member 1}
+		}
+		{colors
+			{active		  "D5A2611A"}
+			{examining	"736CF41A"}
+			{manual		    "f0be51"}
+			{selectable	dblue}
+			{selected	  "D5A2611A"}
+			{senseless	"F0382E1A"}
+		}
+	}
+	{inventory
+		{cell_size 36 36}
+	}
+	{aim_spot
+		{normal "/interface/cursor/sight"}
+		{ground "/interface/cursor/sight_gnd"}
+		{busy "/interface/cursor/wpn_busy"}
+		{target "/interface/cursor/target"}
+	}
+	{damage_indicator
+		{path "/interface/cursor/damage_indicator"}
+		{time 1.0}
+	}
+	{structure
+		{colors
+			{work white}
+			{repairing "190 35 35"}
+			{broken "190 35 35"}
+			{destroyed "80 80 80"}
+		}
+	}
+	{compass
+		;{show}
+		{spacing 60}
+		{offset 0 -5}
+		{step 15}			; in degrees; possible values: 1, 3, 5, 9, 15, 45 [ 360 % (step * 8) = 0 ]
+		{fadeOutStart 0.8}	; where elements start fading out
+		{fadeOutTo 0.0}		; max fade out
+		{fov 60}			; cut off
+	}
+	{vehicle_view
+		{show}
+		{offset 150 -150}
+		{colors
+			{working "0:255 70 0 80,10:255 75 0 80,20:255 95 0 80,30:255 115 0 80,40:255 135 0 80,50:255 155 0 80,60:255 175 0 80,70:255 195 0 80,80:255 215 0 80,90:255 235 0 80,99:255 255 0 80,100:255 255 255 0"} ; (0 to 100) hp_percentage: R G B Alpha
+			{broken "0:215 0 0 100,100:215 0 0 100"}
+		}
+	}
+	{human_view
+		{show}
+		{offset 150 -150}
+	}
+	{crew_view
+		{show}
+		{offset -250 -50}
+		{spacing 40}
+	}
+	{squad_view
+		{show}
+		{offset -250 -50}
+		{spacing 40}
+	}
+	{weapon_view
+		{show}
+		{offset 0 -400}
+		{size 210 115} ; // size of the window
+		{view 30 30} ; // first number is max height of weapon view
+		{spacing 5}
+	}
+	{manual_targeting
+		{range
+			{show}
+			{offset 40 10}
+			{size 32 14}
+
+			{invalid red}
+			{satisfy yellow}
+			{optimal "220 220 220"}
+
+			{background}
+			{bkg_invalid "46 46 46 153"}
+			{bkg_satisfy "46 46 46 153"}
+			{bkg_optimal "46 46 46 153"}
+		}
+		{piercing
+			{show}
+			{offset 74 10}
+			{size 26 14}
+
+			{invalid black}
+			{satisfy black}
+			{optimal black}
+			{disabled black}
+			
+			{background}
+			{bkg_invalid "205 60 60"}
+			{bkg_satisfy "205 170 0"}
+			{bkg_optimal "90 180 70"}
+			{bkg_disabled "75 75 75"}
+		}
+		{zeroing
+			{show}
+			{offset 10 10 0}
+			{size 0 20 20}
+		}
+		{radius
+			{show}
+			{invalid red}
+			{satisfy yellow}
+			{optimal green}
+		}
+		{accuracy_circle		; 1st/3rd Person Only
+			{show}
+			{speed 500}
+		}
+		{trajectory
+			{show}
+		}
+		{zoom_factor
+			;{show}
+		}
+		{ammo
+			{desc
+				{show}
+				{offset 0 50}
+			}
+			{reloading
+				{show}
+				{offset 0 -50}
+			}
+			{grenade
+				{show}
+				{offset 0 0}
+			}
+		}
+		{hitmarker
+			;{show}
+			{time 0.5} ; seconds
+		}
+	}
+}

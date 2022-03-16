@@ -1,0 +1,18 @@
+{from "pattern mgun"		;BF109 2x MG Barrels
+	{tag "gun aa"}
+	{filling "mgun_ger belt" 12}
+	{entity "mg13_no_bipod"}
+	{fireSound "mgun/mg34_burst"}
+	{fireSoundclose "mgun/mg34_burst/3p"}
+	{reloadSound "blank"}
+	{calibre 7.92}
+	{mass 20.4}
+
+	("fire rate" rpm(1200))
+	("velocity" mps(855))
+
+	("reload time" seconds(0.25))
+
+	("burst_aa")
+	("airborne_mg")
+}

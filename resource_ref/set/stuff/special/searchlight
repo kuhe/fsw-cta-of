@@ -1,0 +1,14 @@
+;SDL
+{from "pattern gun"
+	{tag "visor"}
+	{filling "light" 0}
+	{inventory {noView}}
+	{foresight "Foresight3"}
+	{gravity 0}
+	{speed 300}			; m/s
+    {AimingTolerance 3}			; degree
+	{aimRange 200}						
+	{maxRange 200}	
+	{cursor "ironsights/binoculars"}
+}
+

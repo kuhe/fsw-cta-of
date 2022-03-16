@@ -1,0 +1,15 @@
+{from "pattern mgun"
+	{filling "mgun_ger" 50}
+	{entity "mg42_drum"}
+	{fireSound "mgun/mg42_burst"}
+	{fireSoundclose "mgun/mg42_burst/3p"}
+	{reloadSound "mg34"}
+	{calibre 7.92}
+	{mass 11.57}
+
+	("fire rate" rpm(1200))
+	("velocity" mps(740))
+
+	("burst_medium")
+	("spreading_low")
+}

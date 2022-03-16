@@ -1,0 +1,14 @@
+{from "pattern at_rifle"
+	{tag "auto_eject"}
+	{filling "ammo atrifle_rus" 5}
+	{entity "ptrs"}
+	{fireSound "rifle/ptrd_shot"}
+	{fireSoundclose "rifle/ptrd_shot/3p/"}
+	{reloadSound "ptrd"}
+	{calibre 14.5}
+	{mass 17.3}
+
+	("penetration" args 43 40 35)
+	("fire rate" rpm(30))
+	("velocity" mps(1013))
+}

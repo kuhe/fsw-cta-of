@@ -1,0 +1,7 @@
+{from "pattern rpg_ammo"
+	{entity "panzershreck_ammo"}
+	{view "panzershreck_ammo"
+		{tail "bazooka_tail_rpzb" "tail"}
+	}
+	{mass 3.3}
+}

@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_m43_rifle"}
+	{portrait "rus_artilleryman"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_ssh39_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("skilled_repair")
+		("expert_gun")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mosin_carbine" filled}
+		{item "rifle_rus clip ammo" 35 5}
+		
+		{item "bandage_ger" 1.5 0.5}
+		
+		{in_hands 0}
+	}
+}

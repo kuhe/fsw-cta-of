@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_win_suit_smg"}
+	{portrait "rus_sniper"}
+	{icon "smg"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head soviet_ushanka}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2") 
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ppsh41_stick" filled}
+		{item "knife_rus"}
+		{item "bandage_rus"}
+		{item "knife_rus"}
+		{item "satchel_charge_rus" 2}
+		{item "molotov_cocktail grenade" 2}
+		{item "ppsh_stick ammo" 345}
+		{item "rdg1_smoke grenade" 1}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,16 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke wp_small"}
+	{inventory
+		{size 2 1}
+	}
+	{entity "50mm_eng_mortar_sm"}
+	{mass 0.91}
+
+	("minimum_range_medium")
+
+	{damage blastwave
+		{energy 0.1}
+		{area 0.1 0.5}
+		{ground_interaction_radius 1} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

@@ -1,0 +1,18 @@
+;_________________________________________
+; short barreled USSR tank gun
+;=========================================
+
+ 
+{from "76mm_kt26"			; L/26 "t28_38"
+
+	("velocity m/s" ap(555) apcr(1) he(560) heat(560))
+	("range_180")
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(180) a(68) b(62) c(56) d(47) e(40))
+
+	; BP-350A
+	("penetration_medium" shell(heat) range(180) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	("accuracy_direct" r1(0.95) range_ap(180) range_he(180) range_heat(180))
+}

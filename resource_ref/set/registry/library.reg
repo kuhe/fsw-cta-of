@@ -1,0 +1,162 @@
+{library
+	{vehicles
+		{filter
+			{exclude "*/x/*"}
+			{exclude "*/generic/*"}
+			{exclude "*/placeholder/*"}
+			{exclude "*/ussr/cannon/maxim/heavy_mg_maxim.def"}
+			{exclude "*/ussr/cannon/maxim_stand*"}
+			{exclude "*/germany/cannon/37mm_pak36/37mm_pak36_late*"}
+			{exclude "*/germany/cannon/50mm_pak38/50mm_pak38_late*"}
+			{exclude "*/germany/cannon/80mm_sgrw34/80mm_sgrw34_rapid.def"}
+			{exclude "*/germany/cannon/75mm_pak9738*"}
+			
+			{exclude "*/germany/cannon/mg42_lafette/heavy_mg_mg34.def"}
+		}
+		{optLoc "mp/army/"}
+		{rotation "-40.0 20.0"}
+		{%faction
+			{dir "/entity/-vehicle/%faction/*.def"}
+			{entLoc "desc/entity/"}
+		}
+	}
+	{weapons
+		{rotation "20.0 20.0"}
+		{entLoc "desc/weapon/"}
+		{Rifles
+			{dir "/set/stuff/rifle/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{SMGs
+			{dir "/set/stuff/smg/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{MGs
+			{dir "/set/stuff/mgun/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{Pistols
+			{dir "/set/stuff/pistol/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{ATWeapons
+			{dir "/set/stuff/bazooka/*.weapon"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{Flamethrowers
+			{dir "/set/stuff/flame/"}
+			{filter
+				{exclude "*ks_24_flame_thrower"}
+				{exclude "*ato_41_flame_thrower"}
+				{exclude "*ato_42_flame_thrower"}
+				{exclude "*14mm_flammenwerfer"}
+				{exclude "*flame_thrower.ammo"}
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+	}
+	{soldiers
+		{rotation "-40.0 20.0"}
+		{optLoc "mp/army/"}
+		{rus
+			{dir "/set/breed/mp/rus/mid/*.set"}
+			{entLoc "desc/human/mp/rus/mid/"}
+		}
+		{ger
+			{dir "/set/breed/mp/ger/mid/*.set"}
+			{entLoc "desc/human/mp/ger/mid/"}
+		}
+
+	;	{%faction
+	;		{dir "/set/breed/mp/%faction/*.set"}
+
+	;		{dir "/set/breed/mp/%faction/early/*.set"}
+	;		{dir "/set/breed/mp/%faction/mid/*.set"}
+	;		{dir "/set/breed/mp/%faction/late/*.set"}
+	;		{exclude "*.inc"}
+
+	;		{entLoc "desc/human/mp/%faction/"}
+	;	}
+	}
+	{items
+		{rotation "-40.0 20.0"}
+		{entLoc "desc/stuff/"}
+		{optLoc "main_menu2/library/items/"}
+		{throwable
+			{dir "/set/stuff/melee"}
+			{dir "/set/stuff/grenade"}
+			{filter
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{ammo
+			{entLoc "desc/ammo/"}
+			{dir "/set/stuff/shell/*.ammo"}
+			{dir "/set/stuff/reactive/*.ammo"}
+			{dir "/set/stuff/ammo/*.ammo"}
+			{filter
+				{exclude "*dummy.ap.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{stuff
+			{dir "/set/stuff/med"}
+			{dir "/set/stuff/special"}
+			{dir "/set/stuff/explosive"}
+			{filter
+				{exclude "*canned_meat"}
+				{exclude "*medkit"}
+				{exclude "*morphine"}
+				
+				{exclude "*light"}
+				{exclude "*searchlight"}
+				{exclude "*shell_cannon"}
+				{exclude "*shell_cannon_auto"}
+				
+				{exclude "*commander_vision"}
+				{exclude "*cumulative_charge"}
+				{exclude "*cumulative_launcher"}
+				{exclude "*goliath*"}
+				{exclude "*lamp"}
+				{exclude "*human"}
+				{exclude "*matchbox"}
+				
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+	}
+	{fauna
+		{entLoc "desc/fauna/"}
+		{dir "/entity/-fauna/*.def"}
+		{filter
+			{exclude "*crow*"}
+			{exclude "*butterfly*"}
+			{exclude "*dragonfly*"}
+		}
+	}
+}

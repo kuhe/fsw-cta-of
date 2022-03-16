@@ -1,0 +1,9 @@
+{from "pattern heat"
+	{tag "size3 150to152 steilgr heat_high"}
+	{inventory {size 4 1}}
+	{entity "37mm_ger_heat"}
+	{mass 8.6}
+
+	{view "37mm_ger_heat"}
+	("heat_blast" args 0.27)
+}

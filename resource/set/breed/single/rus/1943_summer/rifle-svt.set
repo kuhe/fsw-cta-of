@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "rus_inf_rifle"}
+	{portrait "rus_regular"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head soviet_pilotka}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2") 
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "avt40" filled}
+		{item "bandage_rus"}
+		
+		{item "svt ammo" 200}
+		{in_hands 0}
+	}
+}
