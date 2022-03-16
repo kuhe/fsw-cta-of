@@ -30,5 +30,5 @@
 	{range 310 310}
 	("velocity" mps(340))
 
-	("reload time" seconds(90))
+	("reload time" seconds(25))
 }

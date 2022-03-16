@@ -11,7 +11,7 @@
 	("range_160")
 	{calibre 37}
 
-	("reload time" seconds(6))
+	("reload time" seconds(13))
 
 	("velocity m/s" ap(675) apcr(980) he(340) heat(1))
 	("armor health" damage(100))

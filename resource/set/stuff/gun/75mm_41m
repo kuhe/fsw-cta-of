@@ -10,7 +10,7 @@
 	{reloadSound "interior/large/medium_reload_interior"}
 	("range_180")
 	{calibre 75}
-	("reload time" seconds(7))
+	("reload time" seconds(13.5))
 
 	("velocity m/s" ap(440) apcr(1) he(570) heat(450))
 	("armor health" damage(200))

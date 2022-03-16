@@ -44,8 +44,8 @@
 
 (define "burst_aa_quad"
 	{burst
-		{short 30 0}
-		{long 150 3}
+		{short 10 0}
+		{long 20 3}
 		{rangeKoef 0.5}
 	}
 )
@@ -114,7 +114,7 @@
 ;/*=========================*/
 
 (define "reload_belt"
-	("reload time" seconds(8.5))
+	("reload time" seconds(14))
 )
 
 (define "penetration"

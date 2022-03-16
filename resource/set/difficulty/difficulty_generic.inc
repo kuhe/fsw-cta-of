@@ -20,16 +20,16 @@
 		}
 
 		;// Modifies human's distance from blastwave center when calculating amount of energy that hits the human. 2.0 = double the distance. 
-		{blast_crawl 1.50}			;// simply lying on the ground
-		{blast_cover 1.50}			;// in cover from protected side
-		{blast_crawl_prepared 2.00}	;// lying on the ground & waiting for explosion
-		{blast_cover_prepared 2.00}	;// in cover not from protected side, but waiting for explosion
-		{blast_squat 1.15}			;// on the knees
+		{blast_crawl 3.00}			;// simply lying on the ground
+		{blast_cover 3.00}			;// in cover from protected side
+		{blast_crawl_prepared 4.00}	;// lying on the ground & waiting for explosion
+		{blast_cover_prepared 4.00}	;// in cover not from protected side, but waiting for explosion
+		{blast_squat 2.30}			;// on the knees
 
 		{death_delay_min 420}		;// min bleeding out time in seconds
 		{death_delay_max 680}		;// max bleeding out time in seconds
 
-		{firing_timeout 5.00}		;// time out between bursts	(modifier on FiringTimeout)
+		{firing_timeout 3.00}		;// time out between bursts	(modifier on FiringTimeout)
 		{grenade_timeout 5.50}		;// time out between grenades	(modifier on FiringTimeout)
 
 		{ai_damage 1.0}				;// damage multiplier for AI humans agaisnt other AI humans, does not effect player controlled units

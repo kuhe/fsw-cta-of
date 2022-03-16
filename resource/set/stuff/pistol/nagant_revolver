@@ -7,7 +7,7 @@
 	{calibre 7.62}
 	{mass 0.8}
 
-	("reload time" seconds(5.5))
+	("reload time" seconds(12.5))
 
 	("velocity" mps(272))
 }

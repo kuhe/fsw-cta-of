@@ -5,7 +5,7 @@
 
 {from "57mm_zis2"			; L/73 "zis30"
 
-	("reload time" seconds(4.8))
+	("reload time" seconds(12))
 
 	("accuracy_direct" r1(0.66) range_ap(200) range_he(180) range_heat(180))
 }

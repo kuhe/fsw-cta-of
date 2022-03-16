@@ -4,7 +4,7 @@
 
 
 {from "76mm_kt26"			; L/16.5 "M1943"
-	("reload time" seconds(6))
+	("reload time" seconds(13))
 	("range_160_howitzer")
 	("velocity m/s" ap(387) apcr(1) he(262) heat(311))
 	("armor health" damage(200))

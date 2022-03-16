@@ -8,7 +8,7 @@
 	{fireSoundclose "gun/gun_37_57"}
 
 	("velocity m/s" ap(835) apcr(1150) he(550) heat(110))
-	("reload time" seconds(3.75))
+	("reload time" seconds(11.5))
 
 	("accuracy_direct" r1(0.80) range_ap(180) range_he(160) range_heat(120))
 

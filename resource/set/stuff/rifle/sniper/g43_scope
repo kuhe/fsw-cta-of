@@ -11,7 +11,7 @@
 	("zeroing_boost")
 
 	{parameters "clip"
-		("reload time" seconds(10))
+		("reload time" seconds(15))
 	}
 
 	("scopeview" scope(zoom_vignette_scope_ger_k98))

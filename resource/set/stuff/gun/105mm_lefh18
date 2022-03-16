@@ -12,7 +12,7 @@
 	{calibre 105}
 	{range 360 360} ; // 10.7km
 
-	("reload time" seconds(15))
+	("reload time" seconds(17.5))
 
 	("velocity m/s" ap(390) apcr(1) he(200) heat(496))
 	("armor health" damage(310))

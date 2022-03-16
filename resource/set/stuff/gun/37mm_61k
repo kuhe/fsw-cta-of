@@ -14,7 +14,7 @@
 	("medium_aa")
 
 	("fire rate" rpm(165))
-	("reload time" seconds(1.5))
+	("reload time" seconds(10.5))
 
 	("velocity" mps(860))
 	("armor health" damage(55))

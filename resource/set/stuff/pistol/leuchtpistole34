@@ -21,7 +21,7 @@
 
 	{reloadAnimBonus 55}
 	{reloadSound "flare"}
-	("reload time" seconds(60))
+	("reload time" seconds(25))
 
 	("human health" damage(60))
 

@@ -24,7 +24,7 @@
 
 	{range 1 300}
 	("fire rate" rpm(600))
-	("reload time" seconds(40))
+	("reload time" seconds(25))
 	("velocity" mps(340))
 	("aerial gravity")
 }

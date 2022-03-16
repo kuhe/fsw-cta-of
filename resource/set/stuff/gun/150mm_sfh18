@@ -12,7 +12,7 @@
 	{calibre 150}
 	{range 440 440} ; // 13.3km
 
-	("reload time" seconds(30))
+	("reload time" seconds(25))
 
 	("velocity m/s" ap(1) apcr(1) he(240) heat(460))
 	("armor health" damage(450))

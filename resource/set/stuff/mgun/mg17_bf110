@@ -11,7 +11,7 @@
 	("fire rate" rpm(2400))
 	("velocity" mps(855))
 
-	("reload time" seconds(0.25))
+	("reload time" seconds(10))
 
 	("burst_aa")
 	("airborne_mg")

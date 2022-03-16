@@ -3,5 +3,5 @@
 	{mass 24.2}
 	("fire rate" rpm(1600))
 
-	("reload time" seconds(10))
+	("reload time" seconds(15))
 }

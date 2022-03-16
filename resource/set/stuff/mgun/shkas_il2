@@ -12,7 +12,7 @@
 
 	("fire rate" rpm(3600))
 	("velocity" mps(800))
-	("reload time" seconds(30))
+	("reload time" seconds(25))
 
 	{Spreading {BurstAccuracy 100}}
 

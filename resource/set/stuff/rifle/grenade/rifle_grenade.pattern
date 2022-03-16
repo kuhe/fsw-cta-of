@@ -17,7 +17,7 @@
 	{speed 50}
 	{gravity 2}
 	{reloadAnimBonus 2}
-	("reload time" seconds(10))
+	("reload time" seconds(15))
 	{curve "gun_std"}
 
 	("human health" damage(350))

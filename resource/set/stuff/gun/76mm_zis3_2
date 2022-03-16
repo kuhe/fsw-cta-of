@@ -8,6 +8,6 @@
 	{fireSoundclose "gun/gun_75_105"}
 	{reloadSound "tank/reload_big"}
 
-	("reload time" seconds(5.0))
+	("reload time" seconds(12.5))
 	("accuracy_direct" r1(0.85) range_ap(190) range_he(190) range_heat(170))
 }

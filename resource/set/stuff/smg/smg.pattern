@@ -19,7 +19,7 @@
 	{traceFreq 3}
 	{Automatic}
 
-	("reload time" seconds(4.5))
+	("reload time" seconds(12))
 
 	{spreading
 		{BurstAccuracy 100 95 90 85 80 75 70 65 60}

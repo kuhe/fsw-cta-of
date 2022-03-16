@@ -13,7 +13,7 @@
 	{calibre 20}
 
 	("fire rate" rpm(220))
-	("reload time" seconds(3.5))
+	("reload time" seconds(11.5))
 
 	("velocity m/s" ap(760) apcr(1050) he(900) heat(1))
 	("armor health" damage(30))

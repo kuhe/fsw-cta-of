@@ -14,7 +14,7 @@
 	{range 110 110}
 	{DisableRicochet}
 
-	("reload time" seconds(10))
+	("reload time" seconds(15))
 
 	("velocity" mps(75))
 

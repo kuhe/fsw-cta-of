@@ -2,7 +2,7 @@
 	{filling "mgun_ger" 300}
 	{mass 24.2}
 	("fire rate" rpm(1600))
-	("reload time" seconds(10))
+	("reload time" seconds(15))
 
 	("penetration" args 19 8 0)
 	("armor health" damage(5))

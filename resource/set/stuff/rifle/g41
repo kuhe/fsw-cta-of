@@ -7,7 +7,7 @@
 	{calibre 7.92}
 	{mass 4.9}
 
-	("reload time" seconds(10))
+	("reload time" seconds(15))
 	("velocity" mps(776))
 	("semi_rifle")
 }

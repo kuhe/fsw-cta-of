@@ -21,7 +21,7 @@
 	{SpreadTolerance 0.6}			;// AI needs to aim 70%
 	{aimingTolerance 0.1}
 
-	("reload time" seconds(4))
+	("reload time" seconds(12))
 
 	{range 120 120}
 
