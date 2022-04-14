@@ -1,3 +1,15 @@
 {difficulty
 	(include "difficulty_generic.inc")
+	{enemy
+		{health 0.33}
+		{accuracy 0.33}
+		{grenade_timeout 1.5}		; modifier on FiringTimeout
+	}
+	{ally
+		{health 1.50}
+	}
+	{player
+		{health 1.00}
+	}
+
 }

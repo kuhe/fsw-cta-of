@@ -12,6 +12,7 @@
 		{"fortifications" "medic_rally"}
 	}
 	{"resources" "10%"}
+	{"medic" 5.0}
 )
 
 (define "engineer"
