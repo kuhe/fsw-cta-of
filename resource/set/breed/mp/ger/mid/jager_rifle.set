@@ -1,12 +1,12 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_wh_rifle1"}
+	{skin "ger_wh_smock_rifle"}
 	{portrait "ger_jager"}
 	{icon "rifle"}
 	{icon_priority 0}
 	{nationality ger}
 	{armors
-		{head ger_m40_helmet}
+		{head ger_m42_helmet_italian}
 	}
 	{perks
 		(include "ability.inc")
@@ -17,8 +17,10 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "k98" filled}
-		{item "rifle_ger clip ammo" 60 5}
+		{item "stg44" filled}
+		{item "stg44 ammo" 180}
+        {item "panzerfaust_100 weapon" 1 filled}
+        {item "mgun_ger belt ammo" 100}
 
 		{item "m24 grenade" 2.25 0.5}
 		{item "m24_smoke grenade" 1.25 0.5}

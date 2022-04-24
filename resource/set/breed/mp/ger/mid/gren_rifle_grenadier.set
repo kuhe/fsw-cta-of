@@ -22,7 +22,7 @@
 		
 		{item "k98_grenade_launcher" filling "k98_grenade he ammo" 1}
 		{item "k98_grenade he ammo" 10}
-		{item "k98_grenade heat ammo" 5}
+		{item "k98_grenade heata ammo" 5}
 
 		{item "m24_smoke grenade" 0.25 0.5}
 		{item "m24_geballteladung grenade" 0.15 0.5}

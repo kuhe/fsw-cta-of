@@ -1,8 +1,8 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_wh_gren_rifle"}
+	{skin "ger_wh_rifle"}
 	{portrait "ger_regular"}
-	{icon "riflegrenade"}
+	{icon "bazooka"}
 	{icon_priority 0}
 	{nationality ger}
 	{armors
@@ -11,20 +11,21 @@
 	{perks
 		(include "ability.inc")
 		("rifle_skill_rank_2")
+		("at_rank_3")
 	}
 	{veterancy
 		(include "ability.inc")
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "k98_grenade_launcher" filling "k98_grenade he ammo" 1}
-		{item "k98_grenade he ammo" 10}
-		{item "k98_grenade heata ammo" 5}
+		{item "g43" filling "rifle_ger gewehr ammo" 10}
+		{item "rifle_ger gewehr ammo" 20}
+		{item "rifle_ger clip ammo" 80 10}
 
-		{item "k98" filled}
-		{item "rifle_ger clip ammo" 65 5}
+		{item "panzerfaust_60 weapon" filled}
 
-		{item "nbk39 grenade" 1.25 0.5}
+		{item "m24 grenade" 2.25 0.5}
+		{item "m24_smoke grenade" 1.25 0.5}
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "shovel_ger"}

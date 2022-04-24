@@ -18,12 +18,13 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mp40_unfolded" filled}
-		{item "mp40 ammo" 192}
+		{item "stg44" filled}
+		{item "stg44 ammo" 180}
+        {item "panzerfaust_100 weapon" 1 filled}
 
 		{item "m24 grenade" 2.25 0.5}
 		{item "m24_smoke grenade" 2.25 0.5}
-		{item "m24_geballteladung grenade" 1.25 0.5}
+		{item "m24_geballteladung grenade" 1}
 
 		{item "bandage_ger" 5.5 0.5}
 		{item "shovel_ger"}

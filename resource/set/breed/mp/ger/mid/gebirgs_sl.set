@@ -2,7 +2,7 @@
 	{behaviour soldier}
 	{skin "ger_gj_summer"}
 	{portrait "ger_gebirgsjaeger"}
-	{icon "smg"}
+	{icon "stg"}
 	{icon_priority 0}
 	{nationality ger}
 	{armors
@@ -10,7 +10,7 @@
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_4")
+		("rifle_skill_rank_4")
 		("gebirgsjager")
 	}
 	{veterancy
@@ -18,12 +18,12 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mp40_unfolded" filled}
-		{item "mp40 ammo" 192}
+		{item "stg44" filled}
+		{item "stg44 ammo" 180}
+        {item "panzerfaust_100 weapon" 1 filled}
 
 		{item "m24 grenade" 2.25 0.5}
 		{item "m24_smoke grenade" 2.25 0.5}
-		{item "m24_geballteladung grenade" 0.5 0.5}
 
 		{item "bandage_ger" 5.5 0.5}
 

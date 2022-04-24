@@ -77,7 +77,7 @@
 }
 
 ("squad_with5types_conquest" side(ger) period(mid) min_stage(4) max_stage(99) name(squad_blau_con)				c1(blau_5:1) c2(blau_3:2) c3(blau_2:5) c4(blau_4:1) c5(blau_6:1))
-("squad_with6types_conquest" side(ger) period(mid) min_stage(4) max_stage(99) name(squad_regular_vet_con)		c1(vet_nco:1) c2(vet_nco_asst:1) c3(vet_sa:2) c4(vet_rifle:4) c5(vet_mg:1) c6(vet_mg_asst:1))
+("squad_with6types_conquest" side(ger) period(mid) min_stage(4) max_stage(99) name(squad_regular_vet_con)		c1(vet_nco:1) c2(vet_nco_asst:1) c3(vet_sa:2) c4(vet_rifle:5) c5(vet_mg:1) c6(vet_mg_asst:1))
 ("squad_with6types_conquest" side(ger) period(mid) min_stage(6) max_stage(99) name(squad_jaeger_con)			c1(jager_sl:1) c2(jager_sl_asst:1) c3(jager_smg:5) c4(jager_rifle:1) c5(jager_mg:1) c6(jager_mg_asst:1))
 ("squad_with5types_conquest" side(ger) period(mid) min_stage(5) max_stage(99) name(squad_gebirgsjaeger_con)		c1(gebirgs_sl:1) c2(gebirgs_sl_asst:1) c3(gebirgs_rifle:6) c4(gebirgs_mg:1) c5(gebirgs_mg_asst:1))
 ("squad_with5types_conquest" side(ger) period(mid) min_stage(5) max_stage(99) name(squad_brandenburger_con)		c1(brand_1:1) c2(brand_5:1) c3(brand_3:4) c4(brand_2:2) c5(brand_4:2))

@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_wh_pio_gren_rifle"}
+	{skin "ger_wh_pio_1"}
 	{portrait "ger_pionier"}
 	{icon "rifle"}
 	{icon_priority 0}

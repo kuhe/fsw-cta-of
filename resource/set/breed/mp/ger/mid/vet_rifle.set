@@ -20,10 +20,12 @@
 	{inventory
 		{item "k98" filled}
 		{item "rifle_ger clip ammo" 60 5}
+        {item "panzerfaust_100 weapon" 1 filled}
 
 		{item "m24 grenade" 2.25 0.5}
 		{item "nbk39 grenade" 0.25 0.5}
 		{item "m24_geballteladung grenade" 0.15 0.5}
+		{item "mgun_ger belt ammo" 100}
 
 		{item "bandage_ger" 4.5 0.5}
 		{item "shovel_ger"}

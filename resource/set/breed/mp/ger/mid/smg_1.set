@@ -6,7 +6,7 @@
 	{icon_priority 0}
 	{nationality ger}
 	{armors
-		{head ger_m40_helmet}
+		{head ger_m42_helmet_oak}
 	}
 	{perks
 		(include "ability.inc")

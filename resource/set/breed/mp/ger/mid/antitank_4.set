@@ -1,12 +1,12 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_wh_rifle"}
+	{skin "ger_wh_gren_rifle"}
 	{portrait "ger_regular"}
 	{icon "rifle"}
 	{icon_priority 0}
 	{nationality ger}
 	{armors
-		{head ger_m40_helmet}
+		{head ger_m42_helmet_splinter}
 	}
 	{perks
 		(include "ability.inc")
@@ -17,17 +17,16 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
+		{item "k98_grenade_launcher" filling "k98_grenade he ammo" 1}
+		{item "k98_grenade he ammo" 10}
+		{item "k98_grenade heata ammo" 5}
+
 		{item "k98" filled}
-		{item "rifle_ger clip ammo" 65 5}
+		{item "rifle_ger clip ammo" 60 5}
 
-		{item "m24 grenade" 1.25 0.5}
-		{item "nbk39 grenade" 1.25 0.5}
-		{item "m24_geballteladung grenade" 1.15 0.5}
+		{item "m24_smoke grenade" 0.25 0.5}
 
-		{item "k98_grenade he ammo" 10 2}
-		{item "k98_grenade heata ammo" 10 2}
 		{item "bandage_ger" 3.5 0.5}
-		{item "ger_m34_sidecap"}
 		{item "shovel_ger"}
 
 		{in_hands 0}

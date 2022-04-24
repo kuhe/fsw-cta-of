@@ -6,7 +6,7 @@
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head ger_m38_helmet_net}
+		{head ger_m38_helmet_camo}
 	}
 	{perks
 		(include "ability.inc")
@@ -25,6 +25,7 @@
 		{item "m24 grenade" 2.25 0.5}
 		{item "nbk39 grenade" 1.25 0.5}
 		{item "pwm_l grenade" 1.25 0.5}
+		{item "panzerfaust_60 weapon" 0.5 0.5 filled}
 
 		{item "bandage_ger" 5.5 0.5}
 		{item "shovel_ger"}

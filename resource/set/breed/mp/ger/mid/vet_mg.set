@@ -18,8 +18,8 @@
 		("veterancy_lvl_3")
 	}
 	{inventory
-		{item "mg34_drum" filling "mgun_ger drum ammo" 50}
-		{item "mgun_ger drum ammo" 300}
+		{item "mg42_belt" filling "mgun_ger belt ammo" 250}
+		{item "mgun_ger belt ammo" 400}
 
 		{item "p38" filled}
 		{item "pistol ammo" 16 8}

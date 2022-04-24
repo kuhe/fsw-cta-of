@@ -10,7 +10,7 @@
 
 		{recoil			1}			;// recoil multiplier for all machine guns
 		{recoil_zoom	0.5}		;// recoil multiplier in zoom mode
-		{vehicle_recoil 0}			;// recoil multiplier for all machine guns mounted on vehicles
+		{vehicle_recoil 0.2}			;// recoil multiplier for all machine guns mounted on vehicles
 
 		{cover_efficiency			;// how cover efficiency will drop with distance
 			0		0

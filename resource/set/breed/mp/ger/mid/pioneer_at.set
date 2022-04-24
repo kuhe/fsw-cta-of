@@ -18,8 +18,8 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "pzb_39" filled}
-		{item "atrifle_ger ammo" 35 5}
+		{item "panzershreck_54 weapon" filled}
+		{item "panzershreck ammo" 5.5 0.5}
 
 		{item "p38" filled}
 		{item "pistol ammo" 16 8}

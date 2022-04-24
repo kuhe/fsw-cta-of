@@ -18,19 +18,17 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mp41" filled}
+		{item "mp40_unfolded" filled}
 		{item "mp40 ammo" 256}
 
 		{item "luger" filled}
 		{item "pistol ammo" 16 8}
 
 		{item "m24 grenade" 2.25 0.5}
-		{item "nbk39 grenade" 1.25 0.5}
-		{item "m24_geballteladung grenade" 0.15 0.5}
-		{item "hafthohlladung grenade" 1.15 0.5}
+		{item "m24_smoke grenade" 1.25 0.5}
+		{item "pwm_l grenade" 1.25 0.5}
 
 		{item "bandage_ger" 5.5 0.5}
-		{item "ger_m34_sidecap_luftwaffe"}
 		{item "shovel_ger"}
 
 		{in_hands 0}

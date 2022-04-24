@@ -1,12 +1,12 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_wh_mg"}
+	{skin "ger_wh_smock_mg"}
 	{portrait "ger_jager"}
 	{icon "mg"}
 	{icon_priority 0}
 	{nationality ger}
 	{armors
-		{head ger_m40_helmet}
+		{head ger_m42_helmet_splinter}
 	}
 	{perks
 		(include "ability.inc")

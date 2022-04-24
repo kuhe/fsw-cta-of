@@ -18,11 +18,12 @@
 	}
 	{inventory
 		{item "k98" filled}
-		{item "rifle_ger clip ammo" 60 5}
+		{item "rifle_ger clip ammo" 65 5}
 
 		{item "m24 grenade" 1.25 0.5}
-		{item "nbk39 grenade" 0.25 0.5}
+		{item "m24_smoke grenade" 1.25 0.5}
 
+		{item "mgun_ger drum ammo" 100}
 		{item "bandage_ger" 3.5 0.5}
 		{item "shovel_ger"}
 

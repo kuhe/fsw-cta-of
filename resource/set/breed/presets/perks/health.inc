@@ -7,7 +7,7 @@
 ;/*=========== Standard Presets Begin ===========*/
 
 (define "health_rank_1"		;// concripts or replacement soldiers
-	{"health" "100%"}
+	{"health" "300%"}
 	{"health_regeneration" "10%"}
 	{"stamina" "75%"}
 	{"stamina_regeneration" "75%"}
@@ -16,7 +16,7 @@
 )
 
 (define "health_rank_2"		;// standard soldier, most infantry use this level
-	{"health" "200%"}
+	{"health" "300%"}
 	{"health_regeneration" "10%"}
 	{"stamina" "125%"}
 	{"stamina_regeneration" "100%"}

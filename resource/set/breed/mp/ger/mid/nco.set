@@ -2,29 +2,34 @@
 	{behaviour soldier}
 	{skin "ger_wh_nco"}
 	{portrait "ger_nco"}
-	{icon "smg"}
+	{icon "stg"}
 	{icon_priority 0}
-	{nationality ger_officer}
+	{nationality ger}
 	{armors
-		{head ger_m40_helmet}
+		{head ger_m42_helmet_oak}
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_2")
+		("rifle_skill_rank_3")
 	}
 	{veterancy
 		(include "ability.inc")
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mp40_unfolded" filled}
-		{item "mp40 ammo" 192}
+		{item "stg44" filled}
+		{item "stg44 ammo" 240}
+
+		{item "p38" filled}
+		{item "pistol ammo" 16 8}
 
 		{item "m24 grenade" 2.25 0.5}
-		{item "nbk39 grenade" 1.25 0.5}
+		{item "m24_smoke grenade" 1.25 0.5}
 		{item "m24_geballteladung grenade" 0.15 0.5}
 
-		{item "bandage_ger" 3.5 0.5}
+		{item "bandage_ger" 4.5 0.5}
+		{item "ger_m43_cap"}
+		{item "shovel_ger"}
 
 		{in_hands 0}
 	}

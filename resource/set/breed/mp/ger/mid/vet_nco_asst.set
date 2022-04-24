@@ -18,8 +18,9 @@
 		("veterancy_lvl_3")
 	}
 	{inventory
-		{item "g41" filled}
-		{item "rifle_ger clip ammo" 80 10}
+		{item "k98_scope" filled}
+		{item "rifle_ger clip ammo" 120 10}
+        {item "panzerfaust_100 weapon" 1 filled}
 
 		{item "m24 grenade" 2.25 0.5}
 		{item "nbk39 grenade" 1.25 0.5}

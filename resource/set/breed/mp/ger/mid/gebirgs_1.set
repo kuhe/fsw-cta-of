@@ -20,6 +20,7 @@
 	{inventory
 		{item "mkb42h" filled}
 		{item "stg44 ammo" 300}
+        {item "panzerfaust_100 weapon" 1 filled}
 
 		{item "m24 grenade" 2.25 0.5}
 		{item "nbk39 grenade" 1.25 0.5}

@@ -1,12 +1,12 @@
 {breed
 	{behaviour soldier}
-	{skin "ger_wh_pio_gren_smg"}
+	{skin "ger_wh_pio_2"}
 	{portrait "ger_pionier"}
 	{icon "smg"}
 	{icon_priority 0}
 	{nationality ger}
 	{armors
-		{head ger_m34_sidecap_nco}
+		{head ger_m40_helmet_green_net}
 	}
 	{perks
 		(include "ability.inc")

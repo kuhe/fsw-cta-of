@@ -1,0 +1,355 @@
+
+; ---SQUADS---
+
+	{"single_officer(ger)"			requires	""								costs 1 }
+	{"squad_officer_con(ger)"		requires	"single_officer(ger)"			costs 2 }
+	{"squad_officer_kubel_con"		requires	"squad_officer_con(ger)"		costs 5 }
+	{"squad_officer_250_3_con"		requires	"squad_officer_kubel_con"		costs 8 }
+
+	{"single_engineer(ger)"			requires	""								costs 2 }
+	{"single_ap_miner(ger)"			requires	"single_engineer(ger)"			costs 0 }
+	{"single_at_miner(ger)"			requires	"single_ap_miner(ger)"			costs 0 }
+	{"single_flamer(ger)"			requires	"single_engineer(ger)"			costs 0 }
+
+	{"single_sniper(ger)"			requires	"single_officer(ger)"			costs 1 }
+	{"single_riflegrenade(ger)"		requires	"single_at(ger)"				costs 1 }
+
+	{"squad_regular_con(ger)"			requires	"squad_sicherung_con(ger)"			costs 2 }
+	{"squad_regular_motor_con"			requires	"squad_regular_con(ger) blitz3_6"	costs 0 }
+	{"squad_regular_armor_con"			requires	"squad_regular_motor_con sdkfz251c"	costs 1 }
+	{"squad_regular_vet_con(ger)"		requires	"squad_regular_con(ger)"			costs 2 }
+	{"squad_gd_motor_con"				requires	"squad_regular_vet_con(ger) squad_regular_motor_con"	costs 2 }
+	{"squad_pionier_con(ger)"			requires	"squad_sicherung_con(ger)"			costs 2 }
+	{"squad_pz_pio_con"					requires	"squad_pionier_con(ger) sdkfz251c"	costs 1 }
+
+	{"squad_recon_con(ger)"				requires	"squad_sicherung_con(ger)"			costs 1 }
+	{"squad_recon_motor_con"			requires	"kubelwagen_dak"					costs 0 }
+	{"squad_recon_armor_con"			requires	"squad_recon_con(ger) sdkfz251c"	costs 1 }
+	{"squad_jaeger_con(ger)"			requires	"squad_regular_con(ger)"			costs 2 }
+	{"squad_gebirgsjaeger_con(ger)"		requires	"squad_jaeger_con(ger)"				costs 2 }
+	{"squad_fallschirmjaeger_con(ger)"	requires	"squad_gebirgsjaeger_con(ger)"		costs 2 }
+	{"squad_fallschirmjaeger_motor_con"	requires	"squad_fallschirmjaeger_con(ger)"	costs 1 }
+
+	{"squad_osttruppen_con(ger)"		requires	"squad_sicherung_con(ger)"			costs 1 }
+	{"squad_strafbatallion_con(ger)"	requires	"squad_osttruppen_con(ger)"			costs 1 }
+	{"squad_luftwaffe_con(ger)"			requires	"squad_strafbatallion_con(ger)"		costs 1 }
+	{"squad_blau_con(ger)"				requires	"squad_regular_con(ger)"			costs 2 }
+	{"squad_brandenburger_con(ger)"		requires	"squad_regular_vet_con(ger)"		costs 2 }
+;TOTAL: 29
+
+
+;---MG---
+	{"mg34_lafette"	requires 	""					costs 1}
+	{"mg42_lafette"	requires 	"mg34_lafette"		costs 1}
+
+;---Mortar---
+	{"80mm_sgrw34"	requires	""					costs 2}
+	{"120mm_sgrw42"	requires	"80mm_sgrw34"		costs 4}
+
+;---AA---
+	{"20mm_flak30"	requires	""					costs 1}
+	{"37mm_flak37"	requires	"20mm_flak30"		costs 2}
+	{"88mm_flak18"	requires	"37mm_flak37"		costs 4}
+	{"88mm_flak36"	requires	"88mm_flak18"		costs 4}
+	{"sdkfz8_flak18"	requires	"88mm_flak18 sdkfz10"	costs 4}
+
+;---AT Guns---
+	{"28mm_pzb41"	requires	"single_at(ger)"		costs 1}
+	{"47mm_pakt"	requires	"37mm_pak36"		costs 1}
+	{"50mm_pak38"	requires	"47mm_pakt"			costs 2}
+	{"75mm_pak40"	requires	"50mm_pak38"		costs 3}
+
+;---Infantry Guns---
+	{"75mm_leig18"		requires 	"37mm_pak36"	costs 2}
+	{"150mm_sig33"		requires	"75mm_leig18"	costs 3}
+
+;---Artillery---
+	{"105mm_lefh18"			requires	"75mm_leig18"				costs 3}
+	{"150mm_sfh18"			requires	"105mm_lefh18"				costs 4}
+	{"210mm_morser18"		requires	"150mm_sfh18"				costs 6}
+
+	{"150mm_nebelwerfer41"	requires	"150mm_sfh18"				costs 3}
+	{"300mm_nebelwerfer42"	requires	"150mm_nebelwerfer41"		costs 6}
+;TOTAL: 56
+
+
+;---Trucks---
+	{"blitz3_6"				requires	"squad_regular_con(ger)"	costs 2}
+	{"blitz3_6_fuel"		requires	"blitz3_6_art_ammo"		costs 1}
+	{"blitz3_6_art_ammo"	requires	"inf_crate_ger"			costs 1}
+	{"blitz3_6_engineering"	requires	"kettenkrad_eng"		costs 1}
+	{"blitz3_6_flak30"		requires	"20mm_flak30"			costs 1}
+	{"kubelwagen_dak"		requires	"squad_recon_con(ger)"	costs 1}
+
+	{"kettenkrad_eng"		requires	"single_engineer(ger)"	costs 1}
+	{"sdkfz10"				requires	""						costs 1}
+	{"sdkfz10_pak38"		requires	"sdkfz10 50mm_pak38"	costs 0}
+	{"sdkfz251c"			requires	"squad_regular_motor_con"	costs 4}
+;//	{"sdkfz250a_3"			requires	"squad_officer_kubel_con"	costs 8}
+	{"sdkfz250a_11"			requires	"28mm_pzb41"				costs 2}
+
+	{"sdkfz221"				requires	""				costs 1}
+	{"sdkfz231"				requires	"sdkfz221"		costs 1}
+	{"p204_f"				requires	"sdkfz221"		costs 1}
+	{"sdkfz234_2"			requires	"sdkfz231"		costs 3}
+;TOTAL: 14
+
+
+;---Light Tanks---
+	{"panzer1b"				requires	""				costs 1}
+	{"panzerjager1"			requires	"panzer1b"		costs 2}
+	{"bison"				requires	"panzerjager1"	costs 3}
+	{"panzer1f"				requires	"panzer1b"		costs 8}
+
+	{"panzer2c"				requires	"panzer1b"		costs 1}
+	{"panzer2f"				requires	"panzer2c"		costs 1}
+	{"panzer2l"				requires	"panzer2f"		costs 1}
+	{"marder2"				requires	"panzer2f"		costs 3}
+
+	{"pz35t"				requires	"panzer2c"		costs 1}
+	{"pz38t_a"				requires	"pz35t"			costs 1}
+	{"pz38t_f"				requires	"pz38t_a"		costs 1}
+	{"pz38t_g"				requires	"pz38t_f"		costs 1}
+	{"marder3m"				requires	"pz38t_g"		costs 2}
+	{"grille_m"				requires	"marder3m"		costs 2}
+	{"hetzer"				requires	"marder3m"		costs 2}
+;TOTAL: 24
+
+;---Medium Tanks---
+	{"panzer3e"				requires	"pz38t_a"		costs 2}
+	{"panzer3f"				requires	"panzer3e"		costs 2}
+	{"panzer3j"				requires	"panzer3f"		costs 2}
+	{"panzer3j1"			requires	"panzer3j"		costs 3}
+	{"panzer3l"				requires	"panzer3j1"		costs 3}
+	{"panzer3m"				requires	"panzer3l"		costs 3}
+	{"panzer3n"				requires	"panzer3m"		costs 3}
+	{"panzer3_flamm"		requires	"panzer3n"		costs 3}
+
+	{"stug3b"			requires	"panzer3f"		costs 2}
+	{"sig33b"			requires	"stug3b"		costs 4}
+	{"stug3f"			requires	"stug3b"		costs 3}
+	{"stug3g"			requires	"stug3f"		costs 3}
+	{"stug3g_late"		requires	"stug3g"		costs 4}
+	{"stuh42"			requires	"stug3g"		costs 4}
+
+	{"panzer4d"				requires	"panzer3f"		costs 3}
+	{"panzer4f1"			requires	"panzer4d"		costs 3}
+	{"panzer4f2"			requires	"panzer4f1"		costs 4}
+	{"panzer4g"				requires	"panzer4f2"		costs 4}
+	{"panzer4h"				requires	"panzer4g"		costs 5}
+	{"panzer4j"				requires	"panzer4h"		costs 2}
+	{"panzer5d"				requires	"panzer4h"		costs 8}
+	{"panzer5a"				requires	"panzer5d"		costs 8}
+	{"panzer5g"				requires	"panzer5a"		costs 8}
+	{"jagdpanther"			requires	"panzer5g"		costs 4}
+
+	{"sturmpanzer4"			requires	"panzer4h"		costs 5}
+;TOTAL: 102
+
+;---Heavy Tanks---
+	{"tiger1h"				requires	"panzer4h"		costs 8}
+	{"ferdinand"			requires	"tiger1h"		costs 10}
+	{"tiger1e"				requires	"tiger1h"		costs 9}
+	{"tiger1hunt"			requires	"tiger1e"		costs 5}
+	{"tiger2h"				requires	"tiger1e"		costs 13}
+	{"sturmtiger"			requires	"tiger1e"		costs 10}
+;TOTAL: 54
+
+;---Off Map Support---
+	{"conquest_bf110"		requires	"squad_officer_kubel_con"	costs 1 }
+;TOTAL: 1
+
+
+; ---TECH UPGRADES---
+{ tech "defense_level_1"		requires "reinforcement_stage_2"	costs 1 }
+{ tech "defense_level_2"		requires "reinforcement_stage_3"	costs 5 }
+{ tech "defense_level_3"		requires "reinforcement_stage_4"	costs 7 }
+
+;{ tech "reinforcement_stage_1"	requires ""							costs 0 }
+{ tech "reinforcement_stage_2"	requires "single_officer(ger)"		costs 0 }
+{ tech "reinforcement_stage_3"	requires "squad_officer_con(ger)"	costs 1 }
+{ tech "reinforcement_stage_4"	requires "squad_officer_kubel_con"	costs 1 }
+{ tech "reinforcement_stage_5"	requires "squad_officer_250_3_con"	costs 1 }
+;TOTAL: 28
+
+
+{GridWidth 10} ;total with 0-#
+{Positions
+;// {"Squad name" column, row}
+	{"defense_level_1"			2 0}
+	{"defense_level_2"			4 0}
+	{"defense_level_3"			6 0}
+
+	{"reinforcement_stage_1"	0 1}
+	{"reinforcement_stage_2"	1 1}
+	{"reinforcement_stage_3"	3 1}
+	{"reinforcement_stage_4"	5 1}
+	{"reinforcement_stage_5"	7 1}
+
+;---Off Map Support---
+	{"conquest_bf110"			5 3}
+
+;---SQUADS---
+	{"single_at(ger)"				0 11}
+	{"single_riflegrenade(ger)"		1 12}
+	{"single_flamer(ger)"			1 9}
+
+;//	{"single_medic(ger)"			3 3}
+	{"single_sniper(ger)"			1 3}
+	{"single_officer(ger)"			0 2}
+	{"squad_officer_con(ger)"		2 2}
+	{"squad_officer_kubel_con"		4 2}
+	{"squad_officer_250_3_con"		6 2}
+
+	{"single_ap_miner(ger)"			1 7}
+	{"single_at_miner(ger)"			2 7}
+	{"single_engineer(ger)"			0 8}
+
+	{"squad_osttruppen_con(ger)"		0 21}
+	{"squad_strafbatallion_con(ger)"	1 22}
+	{"squad_luftwaffe_con(ger)"			2 22}
+	{"squad_blau_con(ger)"				0 16}
+	{"squad_brandenburger_con(ger)"		3 15}
+
+	{"squad_sicherung_con(ger)"			0 18}
+	{"squad_regular_con(ger)"			1 17}
+	{"squad_regular_motor_con"			4 17}
+	{"squad_regular_armor_con"			6 17}
+	{"squad_regular_vet_con(ger)"		2 16}
+	{"squad_gd_motor_con"				5 16}
+
+	{"squad_pionier_con(ger)"			1 18}
+	{"squad_pz_pio_con"					6 18}
+
+	{"squad_recon_con(ger)"				1 19}
+	{"squad_recon_motor_con"			3 20}
+	{"squad_recon_armor_con"			6 19}
+
+	{"squad_jaeger_con(ger)"			1 16}
+	{"squad_gebirgsjaeger_con(ger)"		1 14}
+	{"squad_fallschirmjaeger_con(ger)"	6 14}
+	{"squad_fallschirmjaeger_motor_con"	7 14}
+
+
+;---MG---
+	{"mg34_lafette"		0 24}
+	{"mg42_lafette"		2 24}
+
+
+;---Mortars---
+	{"80mm_sgrw34"		0 25}
+	{"120mm_sgrw42"		4 25}
+
+
+;---AA---
+	{"20mm_flak30"		0 26}
+	{"37mm_flak37"		2 26}
+	{"88mm_flak18"		6 26}
+	{"88mm_flak36"		8 26}
+
+
+;---Cannons---
+	{"28mm_pzb41"	2 11}
+	{"37mm_pak36"	0 29}
+	{"47mm_pakt"	2 29}
+	{"50mm_pak38"	4 29}
+	{"75mm_pak40"	5 29}
+
+	{"75mm_leig18"	1 30}
+	{"150mm_sig33"	4 30}
+
+
+;---Artillery---
+	{"105mm_lefh18"			2 31}
+	{"150mm_sfh18"			4 31}
+	{"210mm_morser18"		6 31}
+
+	{"150mm_nebelwerfer41"	4 32}
+	{"300mm_nebelwerfer42"	6 32}
+
+
+;---Trucks---
+;//	{"kubelwagen"			0 32}
+	{"kubelwagen_dak"		2 20}
+	{"blitz3_6"				3 17}
+	{"blitz3_6_flak30"		1 27}
+	{"blitz3_6_engineering"	4 8}
+
+	{"inf_crate_ger"		0 5}
+	{"blitz3_6_art_ammo"	2 5}
+	{"blitz3_6_fuel"		4 5}
+
+
+;---Armored Cars---
+	{"sdkfz221"				0 34}
+	{"p204_f"				1 33}
+	{"sdkfz231"				1 35}
+	{"sdkfz234_2"			5 35}
+	{"sdkfz8_flak18"		7 27}
+	{"kettenkrad_eng"		3 8}
+	{"sdkfz10"				3 27}
+	{"sdkfz10_pak38"		4 28}
+;//	{"sdkfz250a_3"			6 02}
+	{"sdkfz250a_11"			4 11}
+	{"sdkfz251c"			5 18}
+
+
+; ---Light Tanks---
+	{"panzer1b"				0 37}
+	{"panzerjager1"			1 38}
+	{"bison"				2 38}
+	{"panzer1f"				3 37}
+
+	{"panzer2c"				0 40}
+	{"panzer2f"				1 40}
+	{"panzer2l"				3 40}
+	{"marder2"				2 41}
+
+	{"pz35t"				0 42}
+	{"pz38t_a"				0 43}
+	{"pz38t_f"				1 43}
+	{"pz38t_g"				2 43}
+
+	{"marder3m"				4 43}
+	{"grille_m"				5 42}
+	{"hetzer"				7 43}
+
+;---Medium Tanks---
+	{"panzer3e"				0 45}
+	{"panzer3f"				1 45}
+	{"panzer3j"				2 45}
+	{"panzer3j1"			3 45}
+	{"panzer3l"				4 45}
+	{"panzer3m"				5 45}
+	{"panzer3n"				6 45}
+	{"panzer3_flamm"		7 45}
+
+	{"stug3b"				2 46}
+	{"stug3f"				3 46}
+	{"stug3g"				4 46}
+	{"stug3g_late"			5 46}
+	{"stuh42"				5 47}
+	{"sig33b"				3 47}
+	{"sturmpanzer4"			5 49}
+
+	{"panzer4d"				1 49}
+	{"panzer4f1"			2 49}
+	{"panzer4f2"			2 50}
+	{"panzer4g"				3 50}
+	{"panzer4h"				4 50}
+	{"panzer4j"				6 50}
+
+	{"panzer5d"				5 51}
+	{"panzer5a"				6 51}
+	{"panzer5g"				7 51}
+	{"jagdpanther"			8 51}
+
+;---Heavy Tanks---
+	{"tiger1h"				4 53}
+	{"tiger1e"				5 53}
+	{"tiger1hunt"			6 54}
+	{"tiger2h"				7 53}
+	{"ferdinand"			4 55}
+	{"sturmtiger"			5 55}
+
+}
