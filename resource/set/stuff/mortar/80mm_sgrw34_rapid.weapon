@@ -7,5 +7,5 @@
 	{filling "mortarger_80"}
 	{calibre 80}
 	("medium_mortar_range")
-	("reload time" seconds(11.5))
+	("reload time" seconds(3.5))
 }

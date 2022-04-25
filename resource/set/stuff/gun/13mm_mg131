@@ -20,7 +20,7 @@
 	{curve "bullet_mg"}
 
 	("fire rate" rpm(1800))
-	("reload time" seconds(10))
+	("reload time" seconds(0.25))
 
 	("velocity" mps(750))
 

@@ -10,7 +10,7 @@
 	{reloadSound "tank/reload_medium"}
 	("range_180")
 	{calibre 76.2}
-	("reload time" seconds(13))
+	("reload time" seconds(6.5))
 
 	("velocity m/s" ap(588) apcr(1) he(588) heat(290))
 	("armor health" damage(200))

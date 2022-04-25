@@ -8,5 +8,5 @@
 {fireSoundclose "gun/gun_interior/size3"}
 {reloadSound "interior/large/medium_reload_interior"}
 
-	("reload time" seconds(17.5))
+	("reload time" seconds(15))
 }

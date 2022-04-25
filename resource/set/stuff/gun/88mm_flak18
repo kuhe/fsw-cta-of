@@ -5,7 +5,7 @@
 
 {from "88mm_flak36"			; L/56 "88mm_flak18", "sdkfz8_flak18"
 
-	("reload time" seconds(13))
+	("reload time" seconds(6))
 
 	; Pzgr. ;early war Flak ammo through mid 1942
 	("armor health custom" shell(apcbche) damage(240) filler(160))

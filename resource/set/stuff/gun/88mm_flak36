@@ -12,7 +12,7 @@
 	{calibre 88}
 	("heavy_aa")
 
-	("reload time" seconds(13))
+	("reload time" seconds(6))
 
 	("velocity m/s" ap(780) apcr(930) he(820) heat(600))
 	("armor health" damage(240))

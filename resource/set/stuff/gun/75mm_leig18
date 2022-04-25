@@ -11,7 +11,7 @@
 	("range_160_howitzer")
 	{calibre 75}
 
-	("reload time" seconds(13))
+	("reload time" seconds(6))
 
 	("velocity m/s" ap(1) apcr(1) he(210) heat(260))
 	("armor health" damage(200))

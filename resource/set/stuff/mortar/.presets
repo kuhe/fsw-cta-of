@@ -20,7 +20,7 @@
 	{aimRange 150}
 	{minRange 30}
 	{maxRange 150}
-	("reload time" seconds(12))
+	("reload time" seconds(4.5))
 
 	{parameters "he"
 		{projectileDamageTable {0 10}}
@@ -35,13 +35,13 @@
 	{aimRange 170}
 	{minRange 40}
 	{maxRange 170}
-	("reload time" seconds(12.5))
+	("reload time" seconds(5))
 
 	{parameters "he"
 		{projectileDamageTable {0 15}}
 	}
 	{parameters "sm"
-		("reload time" seconds(11.5))
+		("reload time" seconds(3.3))
 	}
 )
 
@@ -53,13 +53,13 @@
 	{aimRange 200}
 	{minRange 45}
 	{maxRange 200}
-	("reload time" seconds(13.5))
+	("reload time" seconds(7))
 
 	{parameters "he"
 		{projectileDamageTable {0 20}}
 	}
 	{parameters "sm"
-		("reload time" seconds(11.5))
+		("reload time" seconds(3.4))
 	}
 )
 
@@ -71,13 +71,13 @@
 	{aimRange 250}
 	{minRange 50}
 	{maxRange 250}
-	("reload time" seconds(15))
+	("reload time" seconds(10))
 
 	{parameters "he"
 		{projectileDamageTable {0 30}}
 	}
 	{parameters "sm"
-		("reload time" seconds(11.5))
+		("reload time" seconds(3.5))
 	}
 )
 

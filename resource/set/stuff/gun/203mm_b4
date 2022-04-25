@@ -12,7 +12,7 @@
 	{calibre 203}
 	{range 600 600} ; // 18km
 
-	("reload time" seconds(25))
+	("reload time" seconds(90))
 
 	("velocity" mps(260))
 	

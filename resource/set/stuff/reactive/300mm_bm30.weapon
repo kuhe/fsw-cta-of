@@ -27,6 +27,6 @@
 
 	{range 280 280}
 	("velocity" mps(245))
-	("reload time" seconds(25))
+	("reload time" seconds(230))
 	{gravity 2.4}
 }

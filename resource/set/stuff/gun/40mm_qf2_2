@@ -4,7 +4,7 @@
 
 
 {from "40mm_qf2"			; L/50, "40mm QF 2-pounder" tank version
-	("reload time" seconds(12))
+	("reload time" seconds(4))
 
 	("accuracy_direct" r1(0.80) range_ap(160) range_he(160) range_heat(160))
 }

@@ -32,7 +32,7 @@
 	{aimingTolerance 0.8}
 
 	("fire rate" rpm(300))
-	("reload time" seconds(11.5))
+	("reload time" seconds(3.5))
 	("velocity" mps(300))
 
 

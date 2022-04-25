@@ -12,7 +12,7 @@
 	{calibre 152}
 	{range 580 580} ; // 17.2km
 
-	("reload time" seconds(25))
+	("reload time" seconds(30))
 
 	("velocity m/s" ap(600) apcr(1) he(250) heat(1)) 		; // historical velocity (600)(1)(600)(1)
 	("armor health" damage(450))

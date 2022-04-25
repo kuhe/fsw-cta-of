@@ -4,7 +4,7 @@
 	{reloadSound "interior/small/mg34_reload_interior"}
 	{mass 26.6}
 	("fire rate" rpm(1100))
-	("reload time" seconds(15))
+	("reload time" seconds(10))
 
 	("burst_medium")
 	("spreading_mounted")

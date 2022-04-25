@@ -10,7 +10,7 @@
 	{reloadSound "interior/large/medium_reload_interior"}
 	("range_170_howitzer")
 	{calibre 75}
-	("reload time" seconds(13))
+	("reload time" seconds(6))
 
 	("velocity m/s" ap(385) apcr(1) he(450) heat(450))
 	("armor health" damage(200))

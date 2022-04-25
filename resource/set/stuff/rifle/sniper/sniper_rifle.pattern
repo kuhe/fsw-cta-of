@@ -27,7 +27,7 @@
 
 	{aimingTolerance 2.5}
 	{RelaxationTime 2}
-	("reload time" seconds(13))
+	("reload time" seconds(6))
 	("fire rate" rpm(24))
 
 	("human health" damage(100))

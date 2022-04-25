@@ -16,7 +16,7 @@
 	{SpreadTolerance 0.05}			;// AI needs to aim 20%
 	{aimingTolerance 10}            ;// temp shoot on the move fix
 
-	("reload time" seconds(13))
+	("reload time" seconds(6))
 	("fire rate" rpm(29))
 	{FiringTimeout 3 0.5}
 

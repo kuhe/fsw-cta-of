@@ -27,6 +27,6 @@
 
 	("fire rate" rpm(120))
 	("velocity" mps(340))
-	("reload time" seconds(25))
+	("reload time" seconds(170))
 	{gravity 3}
 }

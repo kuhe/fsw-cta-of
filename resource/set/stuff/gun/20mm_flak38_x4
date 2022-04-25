@@ -10,5 +10,5 @@
 		{BurstAccuracy 100 90 85 80 72 65 57 50}
 	}
 	("fire rate" rpm(1200))
-	("reload time" seconds(17.5))
+	("reload time" seconds(15))
 }

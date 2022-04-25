@@ -30,7 +30,7 @@
 	{projectileDamageThreshold 1}
 
 	("fire rate" rpm(6))
-	("reload time" seconds(15))
+	("reload time" seconds(10))
 
 	{gravity 0.75}
 

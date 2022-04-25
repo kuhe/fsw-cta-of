@@ -14,7 +14,7 @@
 	("light_aa")
 
 	("fire rate" rpm(420))
-	("reload time" seconds(11))
+	("reload time" seconds(2.5))
 
 	("velocity m/s" ap(760) apcr(1050) he(900) heat(1))
 	("armor health" damage(30))

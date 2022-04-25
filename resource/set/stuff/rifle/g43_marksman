@@ -12,6 +12,6 @@
 	("marksman")
 
 	{parameters "clip"
-		("reload time" seconds(15))
+		("reload time" seconds(10))
 	}
 }
