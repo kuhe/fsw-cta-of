@@ -495,37 +495,37 @@
 
 (define "range_160"
 	("standard_firing_arc")
-	{range 160 160}
+	{range 320 320}
 	("direct_settings")
 )
 (define "range_170"
 	("standard_firing_arc")
-	{range 170 170}
+	{range 340 340}
 	("direct_settings")
 )
 (define "range_180"
 	("standard_firing_arc")
-	{range 180 180}
+	{range 360 360}
 	("direct_settings")
 )
 (define "range_190"
 	("standard_firing_arc")
-	{range 190 190}
+	{range 380 380}
 	("direct_settings")
 )
 (define "range_200"
 	("standard_firing_arc")
-	{range 200 200}
+	{range 400 400}
 	("direct_settings")
 )
 (define "range_210"
 	("standard_firing_arc")
-	{range 210 210}
+	{range 420 420}
 	("direct_settings")
 )
 (define "range_220"
 	("standard_firing_arc")
-	{range 220 220}
+	{range 440 440}
 	("direct_settings")
 )
 

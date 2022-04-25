@@ -464,7 +464,7 @@
 }
 {"stuh42"
 	("vehicle2" side(ger) period(mid) min_stage(7) max_stage(99) cw(6) cp(30) crew1(tankman_stug:3) crew2(tank_commander_stug:1))
-	{cost 750} 
+	{cost 750}
 }
 {"bison"
 	("vehicle2" side(ger) period(mid) min_stage(3) max_stage(6) cw(4) cp(20) crew1(tankman:3) crew2(tank_commander:1))

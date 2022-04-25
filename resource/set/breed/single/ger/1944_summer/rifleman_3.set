@@ -17,7 +17,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "k98" filled}
+		{item "k98" filled} {item "mgun_ger belt ammo" 150}
 		{item "m24 grenade" 1 0.5}
 		{item "m24_geballteladung grenade" 0.5 0.5}
 		{item "rifle_ger clip ammo" 60}

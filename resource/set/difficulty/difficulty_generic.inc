@@ -29,7 +29,7 @@
 		{death_delay_min 420}		;// min bleeding out time in seconds
 		{death_delay_max 680}		;// max bleeding out time in seconds
 
-		{firing_timeout 13.00}		;// time out between bursts	(modifier on FiringTimeout)
+		{firing_timeout 10.00}		;// time out between bursts	(modifier on FiringTimeout)
 		{grenade_timeout 15.50}		;// time out between grenades	(modifier on FiringTimeout)
 
 		{ai_damage 1.0}				;// damage multiplier for AI humans agaisnt other AI humans, does not effect player controlled units

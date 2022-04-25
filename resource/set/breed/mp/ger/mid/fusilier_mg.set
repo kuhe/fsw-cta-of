@@ -18,7 +18,7 @@
 	}
 	{inventory
 		{item "mg42_belt" filling "mgun_ger belt ammo" 250}
-		{item "mgun_ger belt ammo" 300}
+		{item "mgun_ger belt ammo" 150}
 
 		{item "p38" filled}
 		{item "pistol ammo" 16}

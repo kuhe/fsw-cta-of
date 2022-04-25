@@ -45,11 +45,6 @@
 	("doctrine_t1" cool(180) d(late_rus_allround) cost(10))
 }
 
-; // 15DP Valentine VII
-{"doctrine_valentine7"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(valentine7) crew1(tankman:2) crew2(tank_commander:1) cw(0) cp(15))
-	("doctrine_t1" cool(240) d(late_rus_allround) cost(15))
-}
 
 ; ======Tier2======
 
@@ -59,11 +54,6 @@
 	("doctrine_t2" cool(360) d(late_rus_allround) cost(15))
 }
 
-; // 25DP mk4 Churchill III
-{"doctrine_churchill3"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(churchill3) crew1(tankman:4) crew2(tank_commander:1) cw(0) cp(30))
-	("doctrine_t2" cool(360) d(late_rus_allround) cost(25))
-}
 
 ; // 30DP Artillery Signaller
 {"doctrine_squad_rus_signaller_late(rus)"
@@ -73,22 +63,11 @@
 
 ; ======Tier3======
 
-; // 30DP 2x Valentine IX
-{"doctrine_2valentine9"
-	("squad_2vehicle4_doctrine" side(rus) period(late) vehicle(valentine9) crew1(tankman:2) crew2(tank_commander:1) crew3(assault-sap_at:3) crew4(assault-sap_1:3) cw(0) cp(15))
-	("doctrine_t3" cool(480) d(late_rus_allround) cost(30))
-}
 
 ; // 35DP Scout car with BS-3
 {"doctrine_100mm_bs3_scoutcar"
 	("towed_gun_doctrine" side(rus) period(late) vehicle(m3a1e1_scout) crew_v(rifleman_1:1) cannon(100mm_bs3) crew_c(artilleryman:4) cw(0) cp(30))
 	("doctrine_t3" cool(480) d(late_rus_allround) cost(35))
-}
-
-; // 70DP Studebaker BM-31
-{"doctrine_bm31"
-	("squad_vehicle_doctrine" side(rus) period(late) vehicle(bm31_12) crew(tankman:2) cw(0) cp(35))
-	("doctrine_t3" cool(480) d(late_rus_allround) cost(70))
 }
 
 
@@ -146,11 +125,6 @@
 	("doctrine_t3" cool(480) d(late_rus_defensive) cost(40))
 }
 
-; // 40DP Su100
-{"doctrine_su100"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(su100) crew1(tankman:3) crew2(tank_commander:1) cw(0) cp(30))
-	("doctrine_t3" cool(480) d(late_rus_defensive) cost(40))
-}
 
 ; // 60DP B4M
 {"doctrine_203mm_b4_late"
@@ -192,17 +166,6 @@
 	("doctrine_t2" cool(360) d(late_rus_irregular) cost(15))
 }
 
-; // 30DP OT-34
-{"doctrine_ot34_late"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(t3476_43_flame) crew1(tankman:3) crew2(tank_commander:1) cw(0) cp(25))
-	("doctrine_t2" cool(360) d(late_rus_irregular) cost(30))
-}
-
-; // 30DP T34 57 '43
-{"doctrine_t3457_43"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(t3457_43) crew1(tankman:3) crew2(tank_commander:1) cw(0) cp(25))
-	("doctrine_t2" cool(360) d(late_rus_irregular) cost(30))
-}
 
 ; ======Tier3======
 
@@ -213,17 +176,6 @@
 	{action "airstrike:sc_250_mp"} 
 }
 
-; // 45DP ISU-122S
-{"doctrine_isu122s"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(isu122s) crew1(tankman:4) crew2(tank_commander:1) cw(0) cp(20))
-	("doctrine_t3" cool(480) d(late_rus_irregular) cost(45))
-}
-
-; // 50DP BM 13
-{"doctrine_katyusha_late"
-	("squad_vehicle_doctrine" side(rus) period(late) vehicle(bm13_studebaker) crew(tankman:2) cw(0) cp(35))
-	("doctrine_t3" cool(480) d(late_rus_irregular) cost(50))
-}
 
 
 ;===================================
@@ -239,17 +191,6 @@
 	("doctrine_t1" cool(90) d(late_rus_offensive) cost(5))
 }
 
-; // 15DP T-60
-{"doctrine_t60_late"
-	("squad_vehicle_doctrine" side(rus) period(late) vehicle(t60) crew(tankman:2) cw(0) cp(15))
-	("doctrine_t1" cool(240) d(late_rus_offensive) cost(15))
-}
-
-; // 20DP T70M+Inf
-{"doctrine_t70m"
-	("squad_vehicle3_doctrine" side(rus) period(late) vehicle(t70m) crew1(tankman:2) crew2(smg_3:2) crew3(smg_2:1) cw(0) cp(15))
-	("doctrine_t1" cool(240) d(late_rus_offensive) cost(20))
-}
 
 ; ======Tier2======
 
@@ -265,31 +206,9 @@
 	("doctrine_t2" cool(360) d(late_rus_offensive) cost(15))
 }
 
-; // 40DP KV-85
-{"doctrine_kv85"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(kv85) crew1(tankman:3) crew2(tank_commander:1) cw(0) cp(30))
-	("doctrine_t2" cool(360) d(late_rus_offensive) cost(40))
-}
 
 ; ======Tier3======
 
-; // 40DP 2x T-34 85 + Inf
-{"doctrine_2t3485"
-	("squad_2vehicle3_doctrine" side(rus) period(late) vehicle(t3485_44) crew1(tankman:4) crew2(tank_commander:1) crew3(smg_3:4) cw(0) cp(20))
-	("doctrine_t3" cool(480) d(late_rus_offensive) cost(40))
-}
-
-; // 45DP ISU 152
-{"doctrine_isu152"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(isu152) crew1(tankman:4) crew2(tank_commander:1) cw(0) cp(35))
-	("doctrine_t3" cool(480) d(late_rus_offensive) cost(45))
-}
-
-; // 50DP IS2
-{"doctrine_is2"
-	("squad_vehicle2_doctrine" side(rus) period(late) vehicle(is2_44) crew1(tankman:3) crew2(tank_commander:1) cw(0) cp(35))
-	("doctrine_t3" cool(480) d(late_rus_offensive) cost(50))
-}
 
 
 ;_________________________________________________
@@ -431,18 +350,6 @@
 	("vehicle"  period(late) cd(0) ci(30) g(wheel2) side(rus) t(vehicle) crew(rifleman_1:1) b(vehicles) cw(1) cp(2))
 	{cost 20}
 }
-{"t27"
-	("vehicle"  period(late) cd(0) ci(30) g(wheel3) side(rus) t(vehicle) crew(tankman:2) b(vehicles) cw(2) cp(5))
-	{cost 90}
-}
-{"ba64"
-	("vehicle2" period(late) cd(0) ci(60) g(wheel4) side(rus) t(vehicle) crew1(tankman:1) crew2(tank_commander:1) b(vehicles) cw(2) cp(8))
-	{cost 150}
-}
-{"ba10"
-	("vehicle2" period(late) cd(0) ci(60) g(wheel5) side(rus) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(vehicles) cw(2) cp(10))
-	{cost 280}
-}
 {"gaz_aaa_72k"
 	("vehicle"  period(late) cd(90) ci(60) g(wheel6) side(rus) t(vehicle) crew(artilleryman:4) b(vehicles) cw(2) cp(10))
 	{cost 240}
@@ -458,14 +365,6 @@
 {"zis5eng"
 	("vehicle2" period(late) cd(0) ci(30) g(supply3) side(rus) t(vehicle supply)  crew1(engineer_1:1) crew2(engineer_2:1) b(vehicles) cw(1) cp(5))
 	{cost 80}
-}
-{"bm13_studebaker"
-	("vehicle"  period(late) cd(0) ci(30) g(wheel7) side(rus) t(doctrineonly vehicle) crew(tankman:2) b(vehicles) cw(2) cp(35))
-	{cost 1100}
-}
-{"bm31_12"
-	("vehicle"  period(late) cd(0) ci(30) g(wheel8) side(rus) t(doctrineonly vehicle) crew(tankman:2) b(vehicles) cw(2) cp(35))
-	{cost 1600}
 }
 {"m3a1e1_scout"
 	("vehicle"  period(late) cd(0) ci(30) g(wheel9) side(rus) t(doctrineonly vehicle) crew(rifleman_1:1) b(vehicles) cw(1) cp(2))
@@ -484,100 +383,3 @@
 ;_________________________________________________
 ;|        Main Battle Tanks and SPGs              |
 ;|________________________________________________|
-
-
-;LIGHT
-{"t60"
-	("vehicle2" period(late) cd(0) ci(60) t(doctrineonly light) side(rus) crew1(tankman:1) crew2(tank_commander:1) g(light1) b(tanks) cw(4) cp(15))
-	{cost 290} ;// +20 for crew
-}
-{"t70"
-	("vehicle2" period(late) cd(0) ci(60) t(light) side(rus) crew1(tankman:1) crew2(tank_commander:1) g(light2) b(tanks) cw(4) cp(15))
-	{cost 320} ;// +20 for crew
-}
-{"t70m"
-	("vehicle2" period(late) cd(0) ci(60) t(doctrineonly light) side(rus) crew1(tankman:1) crew2(tank_commander:1) g(light3) b(tanks) cw(4) cp(15))
-	{cost 320} ;// +20 for crew
-}
-{"valentine7"
-	("vehicle2" period(late) cd(0) ci(60) t(doctrineonly light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(15))
-	{cost 330} ;// +25 for crew
-}
-{"valentine9"
-	("vehicle2" period(late) cd(0) ci(60) t(doctrineonly light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light5) b(tanks) cw(4) cp(15))
-	{cost 450} ;// +25 for crew
-}
-
-;MEDIUM
-{"t3476_43"
-	("vehicle2" period(late) cd(240) ci(60) t(medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(medium1) b(tanks) cw(6) cp(25))
-	{cost 530} ;// +30 for crew
-}
-{"t3457_43"
-	("vehicle2" period(late) cd(240) ci(60) t(doctrineonly medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(medium2) b(tanks) cw(6) cp(25))
-	{cost 600} ;// +30 for crew
-}
-{"t3476_43_flame"
-	("vehicle2" period(late) cd(240) ci(60) t(doctrineonly medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(medium1) b(tanks) cw(6) cp(25))
-	{cost 620} ;// +30 for crew
-}
-{"t3485_44"
-	("vehicle2" period(late) cd(360) ci(60) t(medium) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(medium3) b(tanks) cw(6) cp(25))
-	{cost 765} ;// +35 for crew
-}
-
-;HEAVY
-{"churchill3"
-	("vehicle2" period(late) cd(720) ci(60) t(doctrineonly heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy0) b(tanks) cw(8) cp(25))
-	{cost 600} ;// +35 for crew
-}
-{"kv1s"
-	("vehicle2" period(late) cd(720) ci(60) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy1) b(tanks) cw(8) cp(30))
-	{cost 700} ;// +35 for crew
-}
-{"kv85"
-	("vehicle2" period(late) cd(720) ci(60) t(doctrineonly heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy2) b(tanks) cw(8) cp(30))
-	{cost 1000} ;// +30 for crew
-}
-{"is1_43"
-	("vehicle2" period(late) cd(720) ci(60) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy3) b(tanks) cw(8) cp(35))
-	{cost 1050} ;// +30 for crew
-}
-{"is2_43"
-	("vehicle2" period(late) cd(720) ci(60) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy4) b(tanks) cw(8) cp(35))
-	{cost 1350} ;// +30 for crew
-}
-{"is2_44"
-	("vehicle2" period(late) cd(720) ci(60) t(doctrineonly heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy5) b(tanks) cw(8) cp(35))
-	{cost 1400} ;// +30 for crew
-}
-
-;SPG
-{"su76"
-	("vehicle2" period(late) cd(240) ci(60) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg1) b(tanks) cw(4) cp(20))
-	{cost 440} ;// +30 for crew
-}
-{"su85"
-	("vehicle2" period(late) cd(480) ci(60) t(medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg2) b(tanks) cw(6) cp(25))
-	{cost 650} ;// +30 for crew
-}
-{"su100"
-	("vehicle2" period(late) cd(480) ci(60) t(doctrineonly medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg3) b(tanks) cw(6) cp(30))
-	{cost 1150} ;// +30 for crew
-}
-{"su122"
-	("vehicle2" period(late) cd(360) ci(180) t(medium) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg4) b(tanks) cw(6) cp(30))
-	{cost 750} ;// +35 for crew
-}
-{"isu122s"
-	("vehicle2" period(late) cd(600) ci(180) t(doctrineonly heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg5) b(tanks) cw(8) cp(35))
-	{cost 1150} ;// +35 for crew
-}
-{"su152"
-	("vehicle2" period(late) cd(600) ci(180) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg6) b(tanks) cw(8) cp(35))
-	{cost 1050} ;// +35 for crew
-}
-{"isu152"
-	("vehicle2" period(late) cd(600) ci(180) t(doctrineonly heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg7) b(tanks) cw(8) cp(35))
-	{cost 1250} ;// +35 for crew
-}

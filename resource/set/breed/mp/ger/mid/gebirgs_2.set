@@ -18,7 +18,8 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "k98" filled}
+		{item "k98" filled} {item "mgun_ger belt ammo" 150}
+ {item "mgun_ger belt ammo" 150}
 		{item "rifle_ger clip ammo" 80}
         {item "panzerfaust_100 weapon" 1 filled}
 

@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "mg34_belt" filling "mgun_ger belt ammo" 250}
-		{item "mgun_ger belt ammo" 300}
+		{item "mgun_ger belt ammo" 150}
 
 		{item "m24 grenade" 1.25 0.5}
 		{item "nbk39 grenade" 1.25 0.5}
